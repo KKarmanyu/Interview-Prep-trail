@@ -1,0 +1,56 @@
+[
+  {
+    "date": "2026-09-18",
+    "added": 0,
+    "revised": 0,
+    "changes": "Added explicit profile navigation and multi-topic filtering; established canonical content files for recurring updates."
+  },
+  {
+    "date": "2026-09-18",
+    "added": 50,
+    "revised": 3,
+    "changes": "Expanded to 25 questions per role with Foundations, prioritisation, Agile, conflict and escalation coverage. Search now uses only question titles, with prefixes and optional all-profile scope."
+  },
+  {
+    "date": "2026-09-18",
+    "added": 0,
+    "revised": 0,
+    "changes": [
+      "Sequential question numbers follow visible results, independent of persistent IDs.",
+      "Fixed plural result label and section-navigation filter preservation.",
+      "Added persistent question submissions and private reply links; 24-hour best-effort reply target.",
+      "Daily target increased to five questions per role with retirement review and sanity reports."
+    ],
+    "sanity": {
+      "passed": [
+        "Five profiles and 1\u201325 numbering",
+        "ESC title-only: 11 matches across roles",
+        "Multiple topics: 10 matches",
+        "Empty result and reset",
+        "Answer expansion",
+        "Local submission persistence and private reply rendering",
+        "Internal links, images, source references",
+        "Production build"
+      ],
+      "not_tested": [
+        "Physical mobile devices",
+        "External source availability sweep",
+        "Production form submission (test data kept local)"
+      ]
+    }
+  },
+  {
+    "date": "2026-09-18",
+    "changes": [
+      "Required name/email and Send question button; browser/server validation.",
+      "Contact fields stay private and do not appear in reply API.",
+      "Prepared server-only owner email handler; activation pending provider credentials."
+    ],
+    "sanity": [
+      "Server rejects missing name, missing email and malformed email",
+      "Valid contact stored in database statement",
+      "Browser required fields and invalid-email rejection verified"
+    ],
+    "email_delivery": "NOT ACTIVE: provider account, API key and verified sender required"
+  }
+]

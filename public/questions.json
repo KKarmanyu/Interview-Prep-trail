@@ -1,0 +1,1956 @@
+[
+  {
+    "id": "project-manager-01",
+    "role": "project-manager",
+    "topic": "Planning & scope",
+    "question": "How do you respond when the promised deadline is impossible?",
+    "answer": "I would validate the remaining work with delivery owners, identify the actual deadline driver and present achievable choices. Each choice needs its scope, cost, dependency and quality implications. I would recommend an option and escalate any commitment beyond my authority.",
+    "scenario": "A website agency promises a full customer portal before a client's conference. Integration work makes the date unrealistic.",
+    "action": "Offer a demonstration or smaller usable release if it meets the business need; obtain an explicit decision on the rest.",
+    "probe": "What would you do if the sponsor rejects every option?",
+    "pitfall": "Promising extra effort without proving it changes the delivery date.",
+    "sources": [
+      "pm_deadline"
+    ],
+    "kind": "Adapted public discussion"
+  },
+  {
+    "id": "project-manager-02",
+    "role": "project-manager",
+    "topic": "Planning & scope",
+    "question": "How do you control a stream of small scope changes?",
+    "answer": "I would keep requested changes visible, assess their combined impact and route decisions through the agreed authority. A change can be valuable and still require a revised commitment. I would distinguish defects against agreed requirements from genuinely new requests.",
+    "scenario": "A reporting project receives a new filter, export format and chart after each review.",
+    "action": "Agree an acceptance baseline and a separate enhancement list, then assess the cumulative effort before promising another revision.",
+    "probe": "How would you handle an urgent change that genuinely adds value?",
+    "pitfall": "Rejecting all change or quietly absorbing it.",
+    "sources": [
+      "pm_revision",
+      "pm_scope"
+    ],
+    "kind": "Adapted public discussion"
+  },
+  {
+    "id": "project-manager-03",
+    "role": "project-manager",
+    "topic": "Planning & scope",
+    "question": "How do you plan a project with incomplete requirements?",
+    "answer": "I would plan known work at useful detail, expose uncertain areas and assign discovery actions. Estimates should state assumptions and confidence. Before baselining dependent work, I would validate the requirement and decision owner instead of hiding uncertainty in a precise date.",
+    "scenario": "A supplier is asked to change an ERP screen, but users have only approved the broad approach.",
+    "action": "Show the proposed workflow and capture critical decisions before committing to implementation and acceptance dates.",
+    "probe": "Which unknown would you resolve first?",
+    "pitfall": "Treating an approved idea as a complete specification.",
+    "sources": [
+      "pm_approval"
+    ],
+    "kind": "Adapted public discussion"
+  },
+  {
+    "id": "project-manager-04",
+    "role": "project-manager",
+    "topic": "Planning & scope",
+    "question": "What do you do when adding people will not fix the delay?",
+    "answer": "I would identify the actual constraint. Extra people help only if work can be divided and onboarding costs do not cancel the benefit. If an external approval or single specialist is the constraint, I would pursue a different sequence, scope or date.",
+    "scenario": "A launch waits on one vendor's approval while management offers three extra developers.",
+    "action": "Show the dependency and latest decision date; redeploy the extra capacity to independent work rather than implying the wait will disappear.",
+    "probe": "How would you prove where the bottleneck is?",
+    "pitfall": "Assuming headcount and delivery speed are proportional.",
+    "sources": [
+      "pm_deadline"
+    ],
+    "kind": "Adapted public discussion"
+  },
+  {
+    "id": "project-manager-05",
+    "role": "project-manager",
+    "topic": "Planning & scope",
+    "question": "How do you distinguish completion from acceptance?",
+    "answer": "I would agree what constitutes a delivered output, a defect and a new request, including who accepts it and when. Reporting should show the actual state rather than moving the finish line after each conversation.",
+    "scenario": "An analyst finishes a dashboard but client feedback repeatedly reopens the same ticket.",
+    "action": "Validate the original criteria, record any unmet requirement and schedule enhancements separately through agreed change control.",
+    "probe": "Can a team mark work accepted without the customer's decision?",
+    "pitfall": "Using a closed ticket as evidence of business acceptance.",
+    "sources": [
+      "pm_revision"
+    ],
+    "kind": "Adapted public discussion"
+  },
+  {
+    "id": "project-manager-06",
+    "role": "project-manager",
+    "topic": "Stakeholders & governance",
+    "question": "What would you do before approving a vendor's detailed design?",
+    "answer": "I would involve the affected users and accountable owner, confirm that the design meets the agreed need, and identify consequential differences. I would time-box review and explain the cost of both delay and rework.",
+    "scenario": "An ERP vendor has designed a new field and changed two reports after stakeholders approved only a concept.",
+    "action": "Run a focused review using the proposed screens and report outputs, then record the decision and outstanding exceptions.",
+    "probe": "What if stakeholders are slow to respond?",
+    "pitfall": "Assuming silence means approval unless that rule was explicitly agreed.",
+    "sources": [
+      "pm_approval"
+    ],
+    "kind": "Adapted public discussion"
+  },
+  {
+    "id": "project-manager-07",
+    "role": "project-manager",
+    "topic": "Stakeholders & governance",
+    "question": "How do you report a red project without creating panic?",
+    "answer": "I would state the missed tolerance, business impact, forecast and recovery options. The update should name the decision required, its owner and latest useful date. A colour is a signal to act, not a judgement about the team.",
+    "scenario": "A portal's vendor dependency now threatens the public launch.",
+    "action": "Explain which milestone is at risk and recommend the smallest achievable release, with the remaining exposure made clear.",
+    "probe": "What would justify changing the status back to amber?",
+    "pitfall": "Keeping the project green to avoid a difficult conversation.",
+    "sources": [
+      "pm_deadline"
+    ],
+    "kind": "Adapted public discussion"
+  },
+  {
+    "id": "project-manager-08",
+    "role": "project-manager",
+    "topic": "Stakeholders & governance",
+    "question": "How do you handle scope changes when a sponsor bypasses change control?",
+    "answer": "I would discuss why the process is being bypassed and make the decision path fast enough for the situation. I would show the impact of the changes already requested, reaffirm authority and avoid allowing informal requests to become invisible commitments.",
+    "scenario": "A director requests extra report changes directly from an analyst after each demo.",
+    "action": "Create a short decision queue and give the director clear trade-offs instead of forcing the analyst to negotiate delivery commitments alone.",
+    "probe": "What if the sponsor is also the change approver?",
+    "pitfall": "Confusing authority to approve with absence of impact.",
+    "sources": [
+      "pm_scope",
+      "pm_revision"
+    ],
+    "kind": "Adapted public discussion",
+    "reviewed": "2026-09-18"
+  },
+  {
+    "id": "project-manager-09",
+    "role": "project-manager",
+    "topic": "Stakeholders & governance",
+    "question": "How do you manage disagreement about who owns a decision?",
+    "answer": "I would separate the business decision from technical advice and delivery coordination. I would confirm an accountable decision-maker, invite the relevant experts and document the rationale, options rejected and review trigger.",
+    "scenario": "Product wants a launch date; engineering says an integration is unsafe; the client assumes the PM can approve it.",
+    "action": "Ask the authorised release owner to decide against explicit evidence while technical owners explain the residual risk.",
+    "probe": "How do you keep the decision moving without overstepping?",
+    "pitfall": "Taking ownership of a decision simply because nobody else will.",
+    "sources": [
+      "pm_approval"
+    ],
+    "kind": "Adapted public discussion"
+  },
+  {
+    "id": "project-manager-10",
+    "role": "project-manager",
+    "topic": "Stakeholders & governance",
+    "question": "How would you explain a scope trade-off to a nontechnical client?",
+    "answer": "I would describe the user outcome being preserved, the feature deferred and the practical consequence. I would provide a recommendation and ask for a clear choice, using delivery evidence rather than technical volume.",
+    "scenario": "A client wants a portal live at an event and also wants customised exports.",
+    "action": "Explain that attendees can use the core workflow at the event while exports follow later, if the client accepts that sequence.",
+    "probe": "What would change your recommendation?",
+    "pitfall": "Presenting a long list of problems without a decision the client can make.",
+    "sources": [
+      "pm_deadline"
+    ],
+    "kind": "Adapted public discussion"
+  },
+  {
+    "id": "project-manager-11",
+    "role": "project-manager",
+    "topic": "Risk & release",
+    "question": "When does a risk become an issue?",
+    "answer": "A risk is an uncertain future condition; an issue has occurred. I would track triggers and responses for the risk, then assign resolution and communicate the actual impact when it materialises. The original risk record can retain the history.",
+    "scenario": "A supplier might miss approval; later, its promised approval date passes.",
+    "action": "Change the reporting from probability to current blockage, assign recovery actions and recalculate dependent commitments.",
+    "probe": "What information changes in the next status report?",
+    "pitfall": "Continuing to describe an existing blockage as a possible future risk.",
+    "sources": [
+      "pm_deadline"
+    ],
+    "kind": "Adapted public discussion"
+  },
+  {
+    "id": "project-manager-12",
+    "role": "project-manager",
+    "topic": "Risk & release",
+    "question": "How do you decide whether to release with a known defect?",
+    "answer": "I would assess affected users, severity, workaround, recoverability and mandatory requirements with the responsible specialists. I would present a recommendation to the authorised release owner, with monitoring and rollback criteria. Some obligations cannot be waived by a client's email.",
+    "scenario": "A checkout change occasionally duplicates a payment confirmation in staging.",
+    "action": "Determine whether money or only messaging is affected before discussing acceptance; postpone affected functionality if the exposure is unacceptable.",
+    "probe": "Who has authority to accept the remaining risk?",
+    "pitfall": "Treating risk acceptance as proof that the release is safe.",
+    "sources": [
+      "canary"
+    ],
+    "kind": "Practice scenario"
+  },
+  {
+    "id": "project-manager-13",
+    "role": "project-manager",
+    "topic": "Risk & release",
+    "question": "What makes a rollback plan credible?",
+    "answer": "It needs a trigger, authorised owner, tested steps, expected duration and a way to validate recovery. I would also check data compatibility: reversing software is insufficient when a release changes stored data irreversibly.",
+    "scenario": "A subscription service updates its billing schema and front end together.",
+    "action": "Rehearse restoration and reconcile affected records; clarify whether recovery means rolling back or applying a forward fix.",
+    "probe": "What if the old application cannot read the new data?",
+    "pitfall": "Writing “restore the backup” without proving it works.",
+    "sources": [
+      "canary"
+    ],
+    "kind": "Practice scenario"
+  },
+  {
+    "id": "project-manager-14",
+    "role": "project-manager",
+    "topic": "Risk & release",
+    "question": "How do you run a useful incident review?",
+    "answer": "I would reconstruct the timeline, customer impact and contributing conditions without reducing the explanation to one person's mistake. Actions need owners, due dates and verification. The review should improve the system and response, not only describe the incident.",
+    "scenario": "A team restores a service but repeatedly experiences the same class of failure.",
+    "action": "Use evidence to choose a small set of preventative and detection changes, then verify them after implementation.",
+    "probe": "How would you handle disagreement about the timeline?",
+    "pitfall": "Closing the review when the document is written.",
+    "sources": [
+      "postmortem"
+    ],
+    "kind": "Practice scenario"
+  },
+  {
+    "id": "project-manager-15",
+    "role": "project-manager",
+    "topic": "Risk & release",
+    "question": "What should be handed over before project closure?",
+    "answer": "I would confirm operational ownership, support procedures, access, known limitations, monitoring and unresolved actions. Acceptance of the output and readiness to operate it are separate checks. I would assign post-launch benefit measurement to a business owner.",
+    "scenario": "A new dashboard is delivered, but no team owns failed data-refresh alerts.",
+    "action": "Agree the support response, runbook and owner before withdrawing project support.",
+    "probe": "Can the project close while improvement work remains?",
+    "pitfall": "Treating deployment as a completed operational handover.",
+    "sources": [
+      "postmortem"
+    ],
+    "kind": "Practice scenario"
+  },
+  {
+    "id": "scrum-master-01",
+    "role": "scrum-master",
+    "topic": "Scrum foundations",
+    "question": "What is a Sprint, and what is its purpose?",
+    "answer": "A Sprint is a Scrum event lasting one month or less. Its goal provides a focus for creating value and inspecting progress. I would explain the intended outcome rather than describe it as a fixed container for as many tickets as possible.",
+    "scenario": "A team has fifteen unrelated tasks and calls completion of all fifteen its goal.",
+    "action": "Facilitate a coherent outcome such as enabling customers to correct an address, then inspect whether the selected work supports it.",
+    "probe": "How would you handle necessary work outside that goal?",
+    "pitfall": "Equating the Sprint Goal with a list of tickets.",
+    "sources": [
+      "scrum"
+    ],
+    "kind": "Practice scenario"
+  },
+  {
+    "id": "scrum-master-02",
+    "role": "scrum-master",
+    "topic": "Scrum foundations",
+    "question": "What does a Scrum Master do beyond scheduling meetings?",
+    "answer": "The Scrum Master helps establish Scrum and improve team effectiveness. I would coach self-management, expose impediments and help the organisation change conditions that limit delivery. I would judge my contribution through improvements, not meeting attendance.",
+    "scenario": "A team waits several days for another department's review every Sprint.",
+    "action": "Help both groups agree a visible request and response process and inspect whether waiting actually falls.",
+    "probe": "What would you do if the impediment is outside the team's control?",
+    "pitfall": "Becoming the permanent person who chases every task.",
+    "sources": [
+      "scrum",
+      "blockers"
+    ],
+    "kind": "Adapted public discussion"
+  },
+  {
+    "id": "scrum-master-03",
+    "role": "scrum-master",
+    "topic": "Scrum foundations",
+    "question": "Who owns the Daily Scrum?",
+    "answer": "It is a 15-minute event for Developers to inspect progress toward the Sprint Goal and adapt their plan. I would help the team use it for coordination, leaving detailed problem-solving to the people who need it afterward.",
+    "scenario": "Each person reads yesterday's tickets to the manager while a blocked integration is not discussed.",
+    "action": "Ask what threatens today's progress and enable Developers to agree the next actions themselves.",
+    "probe": "Must the Scrum Master attend every Daily Scrum?",
+    "pitfall": "Turning the event into an individual performance report.",
+    "sources": [
+      "scrum"
+    ],
+    "kind": "Practice scenario"
+  },
+  {
+    "id": "scrum-master-04",
+    "role": "scrum-master",
+    "topic": "Scrum foundations",
+    "question": "What is the difference between acceptance criteria and Done?",
+    "answer": "Acceptance criteria clarify expectations for an item; the Definition of Done describes the quality state of the increment. I would help the team make both visible and prevent incomplete work from being presented as finished value.",
+    "scenario": "A password-reset story matches the expected screens, but its required security checks have not passed.",
+    "action": "Show the unmet quality requirement and finish the work rather than count it as Done.",
+    "probe": "Can a Product Owner override the Definition of Done?",
+    "pitfall": "Using business approval to hide unfinished quality work.",
+    "sources": [
+      "scrum"
+    ],
+    "kind": "Practice scenario"
+  },
+  {
+    "id": "scrum-master-05",
+    "role": "scrum-master",
+    "topic": "Scrum foundations",
+    "question": "How should a Scrum Master support a Product Owner?",
+    "answer": "I would help make goals and backlog conversations clearer, improve collaboration and support evidence-based decisions. I would not take over product choices or act as a gatekeeper between users and Developers.",
+    "scenario": "A Product Owner first reviews requirements after development and regularly asks for different behaviour.",
+    "action": "Facilitate earlier examples and clarification with the team, then inspect whether rework decreases.",
+    "probe": "How would you raise the issue without blaming the Product Owner?",
+    "pitfall": "Silently rewriting requirements on the Product Owner's behalf.",
+    "sources": [
+      "latepo"
+    ],
+    "kind": "Adapted public discussion"
+  },
+  {
+    "id": "scrum-master-06",
+    "role": "scrum-master",
+    "topic": "Facilitation & coaching",
+    "question": "What would you do when retrospectives produce no change?",
+    "answer": "I would inspect why earlier actions stalled, reduce the number of commitments and agree one feasible experiment with an owner and review date. Changing the meeting game alone does not change the working system.",
+    "scenario": "A team repeats “testing starts too late” in three retrospectives.",
+    "action": "Try reviewing test examples before development on the next small item, then compare the experience at the following retrospective.",
+    "probe": "What if nobody volunteers to own an action?",
+    "pitfall": "Collecting a long improvement list that nobody follows up.",
+    "sources": [
+      "retro"
+    ],
+    "kind": "Practice scenario"
+  },
+  {
+    "id": "scrum-master-07",
+    "role": "scrum-master",
+    "topic": "Facilitation & coaching",
+    "question": "How do you facilitate a retrospective where people stay silent?",
+    "answer": "I would first check whether silence reflects fear, fatigue, language or an unhelpful format. I would offer quiet writing and small-group discussion without promising anonymity I cannot guarantee. I would avoid pressuring people to disclose personal issues.",
+    "scenario": "A manager attends the session and immediately disputes every concern.",
+    "action": "Discuss meeting conditions and agree how feedback will be heard before asking for more candour.",
+    "probe": "How would you respond to retaliation after feedback?",
+    "pitfall": "Assuming a colourful board creates psychological safety.",
+    "sources": [
+      "retro"
+    ],
+    "kind": "Practice scenario"
+  },
+  {
+    "id": "scrum-master-08",
+    "role": "scrum-master",
+    "topic": "Facilitation & coaching",
+    "question": "How do you reduce excessive Sprint Planning time?",
+    "answer": "I would identify what consumes the time: unclear problems, missing decisions, oversized work or capacity uncertainty. I would move useful preparation earlier while retaining collaborative planning. Shorter meetings are a means, not the success measure.",
+    "scenario": "A small part-time team spends much of planning discovering what each task means.",
+    "action": "Clarify the most likely work in advance and plan against actual availability; inspect whether decisions become easier.",
+    "probe": "When does preparation become unnecessary bureaucracy?",
+    "pitfall": "Reducing the time-box while leaving the causes untouched.",
+    "sources": [
+      "parttime"
+    ],
+    "kind": "Adapted public discussion"
+  },
+  {
+    "id": "scrum-master-09",
+    "role": "scrum-master",
+    "topic": "Facilitation & coaching",
+    "question": "How do you handle a dominant voice in team discussions?",
+    "answer": "I would use a structure that allows independent thinking before discussion, invite other perspectives and separate evidence from seniority. I would address repeated behaviour privately and escalate harmful conduct through the appropriate channel.",
+    "scenario": "A senior developer immediately estimates every item and the rest of the team agrees without discussion.",
+    "action": "Gather independent views first, then explore differences and uncertainties before reaching a forecast.",
+    "probe": "What if the senior person's estimate is usually correct?",
+    "pitfall": "Mistaking fast consensus for shared understanding.",
+    "sources": [
+      "parttime"
+    ],
+    "kind": "Adapted public discussion"
+  },
+  {
+    "id": "scrum-master-10",
+    "role": "scrum-master",
+    "topic": "Facilitation & coaching",
+    "question": "How do you respond when the team says Scrum adds too much overhead?",
+    "answer": "I would understand the actual work and measure where time is going. I would inspect whether events serve decisions and whether constraints make the current approach unsuitable. I would explain intentional adaptations honestly rather than call every process Scrum.",
+    "scenario": "A part-time team has limited overlap and spends much of it in repeated status meetings.",
+    "action": "Reduce duplicate reporting, preserve useful collaboration and evaluate the delivery effect of the experiment.",
+    "probe": "What evidence would make you recommend another approach?",
+    "pitfall": "Defending ceremonies without understanding their cost or purpose.",
+    "sources": [
+      "parttime"
+    ],
+    "kind": "Adapted public discussion"
+  },
+  {
+    "id": "scrum-master-11",
+    "role": "scrum-master",
+    "topic": "Flow & improvement",
+    "question": "How do you manage cross-team blockers?",
+    "answer": "I would help teams identify the dependent outcome, owner, required date and confirmation of completion. I would make waiting visible and facilitate direct coordination, then address recurring structural causes rather than becoming a messenger.",
+    "scenario": "A mobile team cannot test until a platform team exposes an endpoint.",
+    "action": "Agree a contract or test stub early and define how readiness will be communicated, then track the actual blocker.",
+    "probe": "What if the other team does not prioritise the request?",
+    "pitfall": "Assuming adding a dependency link resolves the dependency.",
+    "sources": [
+      "blockers"
+    ],
+    "kind": "Adapted public discussion"
+  },
+  {
+    "id": "scrum-master-12",
+    "role": "scrum-master",
+    "topic": "Flow & improvement",
+    "question": "How do you coach a team that repeatedly overcommits?",
+    "answer": "I would compare the forecast with completion evidence and inspect interruptions, item size, capacity and hidden work. I would help the team make a smaller, credible forecast and learn from it instead of treating every miss as a motivation problem.",
+    "scenario": "A team plans for full availability although half its members work part-time.",
+    "action": "Make availability explicit and reserve space for predictable operational work before selecting the next batch.",
+    "probe": "What if leadership insists on the old commitment?",
+    "pitfall": "Inflating estimates simply to make the chart look better.",
+    "sources": [
+      "parttime"
+    ],
+    "kind": "Adapted public discussion"
+  },
+  {
+    "id": "scrum-master-13",
+    "role": "scrum-master",
+    "topic": "Flow & improvement",
+    "question": "How do you evaluate whether your team is improving?",
+    "answer": "I would combine outcome and quality evidence with flow and the team's working experience. I would inspect trends with context and avoid turning any single number into a target that encourages gaming.",
+    "scenario": "A team completes more tickets but still waits on cross-team approval before users receive anything.",
+    "action": "Track elapsed waiting and usable outcomes, then assess whether the dependency intervention helped.",
+    "probe": "Why is comparing story points across teams unreliable?",
+    "pitfall": "Declaring success because ticket throughput increased.",
+    "sources": [
+      "blockers"
+    ],
+    "kind": "Adapted public discussion"
+  },
+  {
+    "id": "scrum-master-14",
+    "role": "scrum-master",
+    "topic": "Flow & improvement",
+    "question": "What do you do when polished backlog items lack evidence?",
+    "answer": "I would help the team distinguish clear wording from a validated need. I would ask who experiences the problem, what observation supports it and what small step could test uncertainty before a large build.",
+    "scenario": "A well-written enterprise feature passes refinement because it is easy to estimate, although nobody has investigated the customer problem.",
+    "action": "Arrange a short discovery conversation or experiment before treating the solution as settled.",
+    "probe": "When is the risk low enough to proceed without more research?",
+    "pitfall": "Treating a detailed story as proof of value.",
+    "sources": [
+      "evidence"
+    ],
+    "kind": "Adapted public discussion"
+  },
+  {
+    "id": "scrum-master-15",
+    "role": "scrum-master",
+    "topic": "Flow & improvement",
+    "question": "How do you handle recurring production interruptions?",
+    "answer": "I would make the demand visible and work with the Product Owner and team on realistic capacity and an interruption policy. Recurrence needs root-cause work; protecting a plan cannot mean ignoring customer harm.",
+    "scenario": "Unplanned support work repeatedly displaces planned improvements.",
+    "action": "Agree what deserves immediate response, record the actual load and make a focused reliability improvement visible in planning.",
+    "probe": "What if every stakeholder labels their issue urgent?",
+    "pitfall": "Hiding support effort to protect a Sprint completion percentage.",
+    "sources": [
+      "postmortem",
+      "okr"
+    ],
+    "kind": "Practice scenario"
+  },
+  {
+    "id": "product-owner-01",
+    "role": "product-owner",
+    "topic": "Backlog & requirements",
+    "question": "How do you turn a customer request into a backlog item?",
+    "answer": "I would clarify the customer's problem, affected users and intended result before specifying a solution. I would capture concrete examples and key constraints with Developers and the relevant stakeholders. The item should enable a conversation and a testable decision.",
+    "scenario": "An enterprise customer asks for a new approval button, but the real problem may be an existing configuration setting.",
+    "action": "Check the current workflow first; add product work only if the gap is real.",
+    "probe": "What evidence would justify building for only one customer?",
+    "pitfall": "Copying the customer's proposed solution directly into the backlog.",
+    "sources": [
+      "evidence"
+    ],
+    "kind": "Adapted public discussion"
+  },
+  {
+    "id": "product-owner-02",
+    "role": "product-owner",
+    "topic": "Backlog & requirements",
+    "question": "How do you write useful acceptance criteria?",
+    "answer": "I would describe observable behaviour and relevant boundaries, using examples the team can discuss and verify. I would include important error and permission cases and resolve assumptions before work is far advanced.",
+    "scenario": "A change allows an account administrator to invite colleagues, but nobody discussed expired invitations.",
+    "action": "Walk through successful, expired and unauthorised attempts with the team before implementation.",
+    "probe": "How would you decide which edge cases matter most?",
+    "pitfall": "Listing vague statements such as “must be user-friendly.”",
+    "sources": [
+      "latepo"
+    ],
+    "kind": "Adapted public discussion"
+  },
+  {
+    "id": "product-owner-03",
+    "role": "product-owner",
+    "topic": "Backlog & requirements",
+    "question": "How do you split an oversized backlog item?",
+    "answer": "I would look for smaller end-to-end outcomes rather than split only by technical component. Each slice should allow meaningful feedback, with dependencies and remaining limitations explicit.",
+    "scenario": "A large returns workflow includes requesting a return, approving it, arranging collection and refunding payment.",
+    "action": "Start with a supported return request for one eligible product type, if that produces useful learning without misleading users.",
+    "probe": "When is a technical enabling item unavoidable?",
+    "pitfall": "Calling separate database, API and UI tasks three customer-ready releases.",
+    "sources": [
+      "engineering"
+    ],
+    "kind": "Adapted public discussion"
+  },
+  {
+    "id": "product-owner-04",
+    "role": "product-owner",
+    "topic": "Backlog & requirements",
+    "question": "How do you handle requirements that change after development?",
+    "answer": "I would determine whether the team missed an agreed expectation, discovered a genuine gap or received a new preference. I would correct defects and evaluate new work transparently, while examining why the change appeared so late.",
+    "scenario": "A Product Owner sees the finished workflow and asks for a different approval sequence from the one refined.",
+    "action": "Compare concrete examples and establish earlier checkpoints for uncertain behaviour.",
+    "probe": "When should you accept rework instead of defending the original requirement?",
+    "pitfall": "Labelling every new request a defect to avoid prioritisation.",
+    "sources": [
+      "latepo"
+    ],
+    "kind": "Adapted public discussion"
+  },
+  {
+    "id": "product-owner-05",
+    "role": "product-owner",
+    "topic": "Backlog & requirements",
+    "question": "Does the Product Owner need to write every user story?",
+    "answer": "No. Collaboration and delegation are useful; the Product Owner remains accountable for effective Product Backlog management. I would make decision ownership clear and remain available to resolve product questions instead of relying on document handoffs.",
+    "scenario": "A BA writes requirements while the Product Owner stays away until final testing.",
+    "action": "Agree which decisions need Product Owner input and involve them before unresolved choices become implementation assumptions.",
+    "probe": "How would you work with a BA without duplicating effort?",
+    "pitfall": "Delegating product decisions without establishing who can make them.",
+    "sources": [
+      "scrum",
+      "latepo"
+    ],
+    "kind": "Adapted public discussion"
+  },
+  {
+    "id": "product-owner-06",
+    "role": "product-owner",
+    "topic": "Prioritisation & value",
+    "question": "How do you handle prioritization when every stakeholder says their item is urgent?",
+    "answer": "I would compare the requests against the current product objective, user impact, urgency, dependencies and effort. I would make the choice and opportunity cost visible, using a scoring method only where it improves judgement.",
+    "scenario": "Sales wants a custom export while support wants a fix affecting many customers.",
+    "action": "Compare the affected users, business exposure and confidence in each claim, then explain which outcome will wait.",
+    "probe": "What overrides the numerical score?",
+    "pitfall": "Letting the loudest stakeholder define urgency.",
+    "sources": [
+      "rice"
+    ],
+    "kind": "Practice scenario",
+    "reviewed": "2026-09-18"
+  },
+  {
+    "id": "product-owner-07",
+    "role": "product-owner",
+    "topic": "Prioritisation & value",
+    "question": "How would you use RICE without pretending it is exact?",
+    "answer": "RICE compares reach, impact and confidence against effort. I would keep the time horizon consistent, show assumptions and investigate scores that depend on weak evidence. Dependencies and necessary obligations can justify a different sequence.",
+    "scenario": "Two onboarding changes appear equally attractive, but one reach estimate is based on measured usage and the other on a sales guess.",
+    "action": "Reduce confidence in the weaker estimate and validate it before committing significant capacity.",
+    "probe": "How would you stop stakeholders inflating their scores?",
+    "pitfall": "Presenting a rough ranking as an objective guarantee.",
+    "sources": [
+      "rice"
+    ],
+    "kind": "Practice scenario"
+  },
+  {
+    "id": "product-owner-08",
+    "role": "product-owner",
+    "topic": "Prioritisation & value",
+    "question": "How do you balance technical debt and new features?",
+    "answer": "I would ask engineering to explain the delivery or operational consequence in concrete terms. I would compare a bounded improvement with the cost of continuing unchanged and agree how to verify the benefit.",
+    "scenario": "A brittle integration repeatedly delays otherwise small feature changes.",
+    "action": "Prioritise a focused repair with a measurable reliability or lead-time objective rather than an undefined rewrite.",
+    "probe": "What if the claimed benefit cannot be measured precisely?",
+    "pitfall": "Treating all technical work as either automatically urgent or automatically optional.",
+    "sources": [
+      "engineering"
+    ],
+    "kind": "Adapted public discussion"
+  },
+  {
+    "id": "product-owner-09",
+    "role": "product-owner",
+    "topic": "Prioritisation & value",
+    "question": "How do you handle a major customer's request that conflicts with strategy?",
+    "answer": "I would understand the underlying need, commercial significance and wider applicability. I would examine configuration or service alternatives, assess opportunity cost and explicitly decide whether an exception is justified.",
+    "scenario": "A large customer asks for a specialist workflow that would displace a planned self-service improvement.",
+    "action": "Explore whether the current product can satisfy the need before committing to a custom branch.",
+    "probe": "When is a one-customer feature still the right decision?",
+    "pitfall": "Assuming one paying customer represents the whole market.",
+    "sources": [
+      "evidence"
+    ],
+    "kind": "Adapted public discussion"
+  },
+  {
+    "id": "product-owner-10",
+    "role": "product-owner",
+    "topic": "Prioritisation & value",
+    "question": "How do you decide whether to stop a backlog initiative?",
+    "answer": "I would compare current evidence with the original need and decision criteria. If expected value has weakened or a cheaper solution now exists, I would stop or redirect the work and communicate the implications. Sunk effort is not future value.",
+    "scenario": "Discovery finds that a proposed portal duplicates a process already supported elsewhere.",
+    "action": "Recommend reuse or a smaller process change, record the learning and release capacity for a better opportunity.",
+    "probe": "How would you handle a stakeholder who has publicly promised the feature?",
+    "pitfall": "Continuing solely because work has already started.",
+    "sources": [
+      "discovery"
+    ],
+    "kind": "Practice scenario"
+  },
+  {
+    "id": "product-owner-11",
+    "role": "product-owner",
+    "topic": "Stakeholders & delivery",
+    "question": "How is a Product Owner different from a Product Manager?",
+    "answer": "The Product Owner is a Scrum accountability; Product Manager is an organisational role whose scope varies. I would clarify decision rights for strategy, discovery, backlog and commercial outcomes rather than assume the job titles create a universal hierarchy.",
+    "scenario": "One company gives its Product Owner strategy decisions and its Product Manager delivery coordination, reversing a candidate's expectation.",
+    "action": "Ask who owns outcomes, who orders work and how disagreements are resolved before agreeing responsibilities.",
+    "probe": "Can one person perform both responsibilities?",
+    "pitfall": "Claiming the Product Owner is always a junior Product Manager.",
+    "sources": [
+      "roles"
+    ],
+    "kind": "Adapted public discussion"
+  },
+  {
+    "id": "product-owner-12",
+    "role": "product-owner",
+    "topic": "Stakeholders & delivery",
+    "question": "How do you respond when engineering says the roadmap cannot fit?",
+    "answer": "I would accept engineering's ownership of technical estimates while exploring alternative scope, sequencing and approaches together. I would clarify the desired outcome and ask what smaller option could meaningfully achieve it.",
+    "scenario": "A platform team estimates months of work for a broad customer-management feature.",
+    "action": "Identify the smallest useful workflow and separately expose non-negotiable technical dependencies.",
+    "probe": "What if there is no smaller safe option?",
+    "pitfall": "Overriding an estimate to force the desired deadline.",
+    "sources": [
+      "engineering"
+    ],
+    "kind": "Adapted public discussion"
+  },
+  {
+    "id": "product-owner-13",
+    "role": "product-owner",
+    "topic": "Stakeholders & delivery",
+    "question": "How do you involve stakeholders without letting them run the backlog?",
+    "answer": "I would create regular opportunities to inspect outcomes and contribute evidence, then keep prioritisation and rationale transparent. Participation should improve decisions without turning every request into an automatic commitment.",
+    "scenario": "Several departments offer contradictory feedback on a new administrative workflow.",
+    "action": "Document the needs, decide against the product objective and tell each stakeholder what was chosen and why.",
+    "probe": "How do you handle a sponsor who disagrees?",
+    "pitfall": "Confusing consultation with unanimous approval.",
+    "sources": [
+      "latepo"
+    ],
+    "kind": "Adapted public discussion"
+  },
+  {
+    "id": "product-owner-14",
+    "role": "product-owner",
+    "topic": "Stakeholders & delivery",
+    "question": "What do you do when a prototype exposes missing requirements?",
+    "answer": "I would treat that as useful learning and classify the gaps: essential behaviour, uncertainty or optional detail. I would update the decision record and test the highest-risk assumptions before expanding implementation.",
+    "scenario": "A prototype reveals that a booking screen has no handling for unavailable slots or interrupted payment.",
+    "action": "Validate those paths with users and engineering, then revise the scope before coding the full flow.",
+    "probe": "How do you avoid endless prototype revision?",
+    "pitfall": "Interpreting every discovered gap as proof that discovery failed.",
+    "sources": [
+      "prototype"
+    ],
+    "kind": "Adapted public discussion"
+  },
+  {
+    "id": "product-owner-15",
+    "role": "product-owner",
+    "topic": "Stakeholders & delivery",
+    "question": "How do you prepare a credible release forecast?",
+    "answer": "I would combine the ordered scope, delivery history, capacity and unresolved dependencies. I would state confidence and assumptions, update the forecast as evidence changes and avoid implying that a date is guaranteed merely because it appears on a roadmap.",
+    "scenario": "A partner integration dominates the uncertainty in an otherwise small release.",
+    "action": "Provide the likely range and the decision or dependency that would narrow it, while keeping optional work visibly separate.",
+    "probe": "What information would make you revise the forecast?",
+    "pitfall": "Adding story points across teams as if they were a common time unit.",
+    "sources": [
+      "engineering",
+      "blockers"
+    ],
+    "kind": "Adapted public discussion"
+  },
+  {
+    "id": "product-manager-01",
+    "role": "product-manager",
+    "topic": "Discovery & customers",
+    "question": "How would you investigate a product problem before suggesting a feature?",
+    "answer": "I would identify the affected segment, observe the existing workflow and examine behavioural evidence alongside interviews. I would separate what users need from the solution they request and test the most consequential assumptions.",
+    "scenario": "A service team is asked to build an interactive map, but users primarily struggle to find the correct contact point.",
+    "action": "Test whether clearer information solves the task before committing to a map.",
+    "probe": "What would convince you that a feature is unnecessary?",
+    "pitfall": "Starting with a solution and researching only to justify it.",
+    "sources": [
+      "discovery"
+    ],
+    "kind": "Practice scenario"
+  },
+  {
+    "id": "product-manager-02",
+    "role": "product-manager",
+    "topic": "Discovery & customers",
+    "question": "How do you run customer interviews without leading the answers?",
+    "answer": "I would ask about specific recent behaviour, context and workarounds, using open prompts. I would avoid pitching the feature before understanding the problem. I would compare accounts across relevant users and seek contradictory evidence.",
+    "scenario": "A travel team wants to know whether travellers need a new itinerary-sharing tool.",
+    "action": "Ask how the last group trip was organised and where coordination broke down, rather than “Would you use our tool?”",
+    "probe": "How would you validate a claimed pain point?",
+    "pitfall": "Treating a polite “yes” as evidence of demand.",
+    "sources": [
+      "interviews"
+    ],
+    "kind": "Practice scenario"
+  },
+  {
+    "id": "product-manager-03",
+    "role": "product-manager",
+    "topic": "Discovery & customers",
+    "question": "How do you distinguish a real need from one loud request?",
+    "answer": "I would assess the user's context, frequency and impact, then look for other evidence and alternatives. A small segment can be valuable, but that needs a deliberate strategy rather than accidental prioritisation.",
+    "scenario": "An enterprise account asks for a new workflow and the team immediately starts estimating it.",
+    "action": "Check the underlying task and whether configuration solves it; compare the opportunity with the current product objective.",
+    "probe": "What if there is no time for a large research study?",
+    "pitfall": "Demanding large sample sizes for every decision or doing no validation at all.",
+    "sources": [
+      "evidence"
+    ],
+    "kind": "Adapted public discussion"
+  },
+  {
+    "id": "product-manager-04",
+    "role": "product-manager",
+    "topic": "Discovery & customers",
+    "question": "What would you do if a prototype repeatedly changes the PRD?",
+    "answer": "I would use the prototype to test assumptions and make the learning explicit. I would stabilise the problem and constraints while allowing the solution to evolve. A time-box and decision criteria prevent exploration from becoming endless.",
+    "scenario": "A device-management prototype exposes missing error states and unclear permissions.",
+    "action": "Prioritise high-impact gaps, record the decisions and agree what evidence is sufficient to proceed.",
+    "probe": "When would you stop prototyping?",
+    "pitfall": "Measuring discovery quality by how little the document changes.",
+    "sources": [
+      "prototype"
+    ],
+    "kind": "Adapted public discussion"
+  },
+  {
+    "id": "product-manager-05",
+    "role": "product-manager",
+    "topic": "Discovery & customers",
+    "question": "How would you test an idea without building the whole product?",
+    "answer": "I would choose a small test that addresses the riskiest assumption: a prototype, manual service or limited pilot. I would define what evidence would change the decision and avoid misleading participants about what exists.",
+    "scenario": "A scheduling product proposes automatic conflict resolution before proving that users trust the recommendations.",
+    "action": "Offer a clearly described manual recommendation pilot and observe acceptance and corrections.",
+    "probe": "What does the test fail to tell you?",
+    "pitfall": "Calling any cheap experiment an MVP without knowing what it tests.",
+    "sources": [
+      "discovery"
+    ],
+    "kind": "Practice scenario"
+  },
+  {
+    "id": "product-manager-06",
+    "role": "product-manager",
+    "topic": "Strategy & prioritisation",
+    "question": "What belongs in a product strategy?",
+    "answer": "I would explain the target users, important problem, intended differentiation and choices about where to focus. The strategy should connect desired customer outcomes with a sustainable business model and guide what the team will decline.",
+    "scenario": "A business wants both enterprise customisation and frictionless self-service with the same small team.",
+    "action": "Clarify the chosen segment and advantage before debating the next feature list.",
+    "probe": "How would you know the strategy needs revision?",
+    "pitfall": "Calling a list of quarterly features a strategy.",
+    "sources": [
+      "evidence"
+    ],
+    "kind": "Adapted public discussion"
+  },
+  {
+    "id": "product-manager-07",
+    "role": "product-manager",
+    "topic": "Strategy & prioritisation",
+    "question": "How do you respond to engineering pushback on your roadmap?",
+    "answer": "I would distinguish a technical constraint from a negotiable implementation choice and discuss options with engineering. I own the problem and product trade-offs, not the right to dictate unsupported estimates.",
+    "scenario": "Engineering says the proposed workflow requires a major rewrite.",
+    "action": "Ask which constraints drive the estimate and whether a smaller outcome is feasible before changing the commitment.",
+    "probe": "What if the rewrite is necessary?",
+    "pitfall": "Assuming “challenge the estimate” means pressure engineers to lower it.",
+    "sources": [
+      "engineering"
+    ],
+    "kind": "Adapted public discussion"
+  },
+  {
+    "id": "product-manager-08",
+    "role": "product-manager",
+    "topic": "Strategy & prioritisation",
+    "question": "How do you handle prioritization when initiative impact is uncertain?",
+    "answer": "I would show expected reach, impact, effort and confidence, then examine uncertainty and strategic fit. I would validate expensive, uncertain bets with smaller tests and preserve capacity for unavoidable operational work.",
+    "scenario": "A mature onboarding fix competes with an ambitious recommendation feature.",
+    "action": "Compare evidence strength and cost of delay rather than selecting the more exciting presentation.",
+    "probe": "How do you account for dependencies?",
+    "pitfall": "Hiding uncertain inputs behind a precise score.",
+    "sources": [
+      "rice"
+    ],
+    "kind": "Practice scenario",
+    "reviewed": "2026-09-18"
+  },
+  {
+    "id": "product-manager-09",
+    "role": "product-manager",
+    "topic": "Strategy & prioritisation",
+    "question": "How do you balance growth work with keeping the service reliable?",
+    "answer": "I would treat operational work as real demand and understand its business consequence. I would make capacity and trade-offs explicit, then address causes that repeatedly prevent strategic progress.",
+    "scenario": "A team has quarterly growth objectives but spends most of its time handling recurring incidents.",
+    "action": "Agree a bounded reliability investment and realistic growth commitment, with measures for both.",
+    "probe": "When should operational work take precedence?",
+    "pitfall": "Assuming every necessary activity must become a separate OKR.",
+    "sources": [
+      "okr"
+    ],
+    "kind": "Practice scenario"
+  },
+  {
+    "id": "product-manager-10",
+    "role": "product-manager",
+    "topic": "Strategy & prioritisation",
+    "question": "How would you explain a decision not to build a feature?",
+    "answer": "I would acknowledge the need, present the evidence and explain the chosen trade-off or alternative. I would state what change in circumstances could reopen the decision, without promising a date merely to end the conversation.",
+    "scenario": "Research shows users can complete a task through an existing service, while the requested feature would duplicate it.",
+    "action": "Recommend the cheaper route and make its limitations explicit.",
+    "probe": "What if sales has already promised the feature?",
+    "pitfall": "Saying “not on the roadmap” without explaining the decision.",
+    "sources": [
+      "discovery"
+    ],
+    "kind": "Practice scenario"
+  },
+  {
+    "id": "product-manager-11",
+    "role": "product-manager",
+    "topic": "Metrics & experiments",
+    "question": "How do you choose a meaningful success metric?",
+    "answer": "I would start with the user and business outcome, define a measurable signal and identify guardrails. I would establish the baseline and data quality before setting a target. Usage alone may not mean a better result.",
+    "scenario": "A permit service launches an easier application flow.",
+    "action": "Track completed valid applications and user difficulties, not only page views or account registrations.",
+    "probe": "What negative effect could your metric hide?",
+    "pitfall": "Choosing the easiest dashboard number rather than the desired outcome.",
+    "sources": [
+      "metrics"
+    ],
+    "kind": "Practice scenario"
+  },
+  {
+    "id": "product-manager-12",
+    "role": "product-manager",
+    "topic": "Metrics & experiments",
+    "question": "A new feature is used often. How do you know it helped?",
+    "answer": "I would investigate whether usage leads to the intended result and whether it creates costs or friction elsewhere. I would compare relevant cohorts or use an appropriate experiment, while considering selection effects.",
+    "scenario": "Users repeatedly open an order-tracking page.",
+    "action": "Determine whether they find useful answers or repeatedly return because the delivery status is unclear.",
+    "probe": "Could higher engagement indicate a worse experience?",
+    "pitfall": "Interpreting all engagement as value.",
+    "sources": [
+      "metrics"
+    ],
+    "kind": "Practice scenario"
+  },
+  {
+    "id": "product-manager-13",
+    "role": "product-manager",
+    "topic": "Metrics & experiments",
+    "question": "How do you design an A/B test?",
+    "answer": "I would specify the hypothesis, eligible population, randomisation unit, primary measure and guardrails before starting. I would agree the analysis plan with an analyst, check instrumentation and consider effects such as interference and novelty.",
+    "scenario": "A marketplace tests a shorter checkout flow.",
+    "action": "Compare completed orders while watching errors, refunds and accessibility issues; do not stop simply when an attractive result appears.",
+    "probe": "When would randomising individual users be inappropriate?",
+    "pitfall": "Changing success criteria after seeing the data.",
+    "sources": [
+      "experiments"
+    ],
+    "kind": "Practice scenario"
+  },
+  {
+    "id": "product-manager-14",
+    "role": "product-manager",
+    "topic": "Metrics & experiments",
+    "question": "What do you do when an experiment has no clear result?",
+    "answer": "I would inspect whether the test addressed the hypothesis, had reliable data and could detect an effect worth acting on. I would distinguish inconclusive evidence from evidence of no useful effect, then decide whether more learning is worth the cost.",
+    "scenario": "A small customer segment produces too few completed purchases for a clear comparison.",
+    "action": "Review feasibility with the analyst and consider another learning method rather than claiming a win from a noisy uplift.",
+    "probe": "What would justify stopping the experiment anyway?",
+    "pitfall": "Treating a positive point estimate as a proven result.",
+    "sources": [
+      "experiments"
+    ],
+    "kind": "Practice scenario"
+  },
+  {
+    "id": "product-manager-15",
+    "role": "product-manager",
+    "topic": "Metrics & experiments",
+    "question": "How do you investigate a sudden drop in conversion?",
+    "answer": "I would first validate tracking, then segment by device, geography, channel and version. I would compare changes and inspect the user journey with relevant teams. I would avoid assuming the most recent release caused it without evidence.",
+    "scenario": "A checkout metric falls after a mobile update and an analytics change on the same day.",
+    "action": "Check actual orders and event completeness before deciding whether to roll back the user experience.",
+    "probe": "What action would you take while the cause is still uncertain?",
+    "pitfall": "Confusing an instrumentation problem with a product failure.",
+    "sources": [
+      "metrics",
+      "canary"
+    ],
+    "kind": "Practice scenario"
+  },
+  {
+    "id": "ai-project-manager-01",
+    "role": "ai-project-manager",
+    "topic": "Scoping & feasibility",
+    "question": "How do you decide whether a problem needs AI?",
+    "answer": "I would define the operational problem and compare an AI approach with a simpler baseline. The decision depends on usable data, uncertainty, cost and the consequences of mistakes. I would require evidence of benefit instead of treating AI as the objective.",
+    "scenario": "A support team wants automatic routing, but a small set of stable rules already covers most cases.",
+    "action": "Measure the rules-based baseline and test whether a model improves difficult cases enough to justify its operating cost.",
+    "probe": "When would you recommend not using AI?",
+    "pitfall": "Starting model selection before agreeing the problem.",
+    "sources": [
+      "ml"
+    ],
+    "kind": "Practice scenario"
+  },
+  {
+    "id": "ai-project-manager-02",
+    "role": "ai-project-manager",
+    "topic": "Scoping & feasibility",
+    "question": "How is planning an AI project different from a conventional software project?",
+    "answer": "I would plan for uncertainty in data and model performance as well as engineering delivery. Milestones should include evidence-based feasibility and release decisions, with an option to stop or narrow scope. A working interface is not proof of model quality.",
+    "scenario": "A document assistant has a convincing demo but no evaluation on actual document types.",
+    "action": "Separate prototype completion from validated performance and operational readiness in the plan.",
+    "probe": "How would you communicate an uncertain feasibility date?",
+    "pitfall": "Promising a target accuracy as if it were an ordinary feature estimate.",
+    "sources": [
+      "debt"
+    ],
+    "kind": "Practice scenario"
+  },
+  {
+    "id": "ai-project-manager-03",
+    "role": "ai-project-manager",
+    "topic": "Scoping & feasibility",
+    "question": "How do you define success for an AI pilot?",
+    "answer": "I would agree a business baseline, task-level quality requirements, failure severity and operating limits before the pilot. I would evaluate representative use and include the effort needed to review or correct outputs.",
+    "scenario": "A claims-document assistant appears faster, but staff spend substantial time checking its suggestions.",
+    "action": "Measure end-to-end handling time and error consequences, including review effort, rather than model response time alone.",
+    "probe": "What would make you stop a pilot early?",
+    "pitfall": "Counting generated outputs as business value.",
+    "sources": [
+      "nist"
+    ],
+    "kind": "Practice scenario"
+  },
+  {
+    "id": "ai-project-manager-04",
+    "role": "ai-project-manager",
+    "topic": "Scoping & feasibility",
+    "question": "When would you use a workflow instead of an autonomous agent?",
+    "answer": "I would prefer predictable steps when the process is well understood. More autonomy is justified only if flexible decision-making creates enough value to offset extra complexity, latency and failure modes. I would keep boundaries and evaluation explicit.",
+    "scenario": "A process classifies an invoice, extracts fields and routes it for approval.",
+    "action": "Test a controlled workflow before allowing an agent to choose actions or access financial systems.",
+    "probe": "Which actions require human approval?",
+    "pitfall": "Assuming an agent is inherently better than a simpler workflow.",
+    "sources": [
+      "agents"
+    ],
+    "kind": "Practice scenario"
+  },
+  {
+    "id": "ai-project-manager-05",
+    "role": "ai-project-manager",
+    "topic": "Scoping & feasibility",
+    "question": "How do you manage build-versus-buy for an AI capability?",
+    "answer": "I would compare realistic task performance, integration effort, data handling, operating cost, support and exit options. I would test shortlisted approaches on the same representative tasks and document assumptions with technical and business owners.",
+    "scenario": "A team considers an external assistant service for internal documents.",
+    "action": "Pilot a bounded use case and check access controls and portability before committing to a broad rollout.",
+    "probe": "What happens if the provider changes the model?",
+    "pitfall": "Selecting solely on a polished demonstration.",
+    "sources": [
+      "debt",
+      "nist"
+    ],
+    "kind": "Practice scenario"
+  },
+  {
+    "id": "ai-project-manager-06",
+    "role": "ai-project-manager",
+    "topic": "Data & evaluation",
+    "question": "What do you check before declaring data ready?",
+    "answer": "I would ask the responsible data owners to verify relevance, permitted use, coverage, quality and provenance. I would identify missing segments and label ambiguity, with clear ownership for remediation. More records do not automatically mean better evidence.",
+    "scenario": "A support classifier's training set contains mostly one language and only resolved tickets.",
+    "action": "Check the intended production population and collect appropriate examples of unresolved and minority-language cases.",
+    "probe": "Who approves the use of the data?",
+    "pitfall": "Assuming accessible data is representative or authorised for every use.",
+    "sources": [
+      "playbook"
+    ],
+    "kind": "Practice scenario"
+  },
+  {
+    "id": "ai-project-manager-07",
+    "role": "ai-project-manager",
+    "topic": "Data & evaluation",
+    "question": "How do you build a useful evaluation set?",
+    "answer": "I would work with domain experts to sample actual tasks, important edge cases and costly failures. I would define scoring criteria, protect a held-out set and track changes to the model and evaluation data. Test cases should reflect the intended workflow.",
+    "scenario": "A policy assistant is assessed only on short questions from its demonstration.",
+    "action": "Add ambiguous requests, conflicting documents and questions with no supported answer, then review failures by severity.",
+    "probe": "How do you prevent the team optimising only for the test set?",
+    "pitfall": "Using a handful of friendly prompts as release evidence.",
+    "sources": [
+      "playbook"
+    ],
+    "kind": "Practice scenario"
+  },
+  {
+    "id": "ai-project-manager-08",
+    "role": "ai-project-manager",
+    "topic": "Data & evaluation",
+    "question": "What would you do when a model performs well overall but poorly for one group?",
+    "answer": "I would segment performance and assess the consequence for affected users with domain experts. I would not let an average hide material harm. Options include data improvements, narrower deployment, an alternative process and additional review.",
+    "scenario": "A document parser handles clean digital files but fails on scanned documents used by a smaller customer group.",
+    "action": "Evaluate that group separately and provide a usable fallback before expanding deployment.",
+    "probe": "When would restricting the rollout be appropriate?",
+    "pitfall": "Publishing one average score as a complete quality assessment.",
+    "sources": [
+      "nist"
+    ],
+    "kind": "Practice scenario"
+  },
+  {
+    "id": "ai-project-manager-09",
+    "role": "ai-project-manager",
+    "topic": "Data & evaluation",
+    "question": "How do you manage unreliable or invented AI answers?",
+    "answer": "I would define what a supported answer requires, test against trusted evidence and design a fallback when the system lacks support. I would monitor failure patterns and involve domain reviewers. A confident tone is not a quality measure.",
+    "scenario": "A help assistant invents a refund condition absent from company policy.",
+    "action": "Require source-grounded handling for the relevant task and route unsupported cases to an appropriate human process.",
+    "probe": "How would you check whether the supporting citation actually supports the answer?",
+    "pitfall": "Assuming retrieval alone eliminates incorrect answers.",
+    "sources": [
+      "playbook"
+    ],
+    "kind": "Practice scenario"
+  },
+  {
+    "id": "ai-project-manager-10",
+    "role": "ai-project-manager",
+    "topic": "Data & evaluation",
+    "question": "Why can an AI system fail after its inputs were copied from another project?",
+    "answer": "I would examine the assumptions embedded in preprocessing, labels and dependencies rather than assume a working pipeline transfers safely. A reused component can silently exclude data needed by the new objective.",
+    "scenario": "Google's Rules of ML describes a pipeline copied from a freshness-oriented use case that continued discarding older posts needed by another feed.",
+    "action": "For an analogous launch, inspect each inherited filtering rule and test representative retained and excluded records.",
+    "probe": "How would you detect the problem before users notice?",
+    "pitfall": "Reusing a pipeline without checking the meaning of its transformations.",
+    "sources": [
+      "ml"
+    ],
+    "kind": "Published real-world example"
+  },
+  {
+    "id": "ai-project-manager-11",
+    "role": "ai-project-manager",
+    "topic": "Launch & operations",
+    "question": "What should an AI release gate include?",
+    "answer": "I would require task evaluation, operational readiness, appropriate safeguards, ownership and a recovery path. I would make the decision proportional to the consequence of failure and preserve a record of remaining limitations.",
+    "scenario": "An internal assistant is ready for a small pilot, but its support team cannot diagnose disputed answers.",
+    "action": "Limit the rollout until logging, issue handling and review responsibilities are workable.",
+    "probe": "What evidence is missing between a successful demo and a safe launch?",
+    "pitfall": "Treating a vendor benchmark as evidence for your own workflow.",
+    "sources": [
+      "playbook"
+    ],
+    "kind": "Practice scenario"
+  },
+  {
+    "id": "ai-project-manager-12",
+    "role": "ai-project-manager",
+    "topic": "Launch & operations",
+    "question": "How would you roll out a new model safely?",
+    "answer": "I would compare it with the current version on relevant tasks, limit initial exposure where appropriate and agree monitoring and reversal criteria. I would coordinate application, data and model changes so failures can be diagnosed.",
+    "scenario": "A recommendation model improves offline ranking but its live latency is higher.",
+    "action": "Use controlled exposure and inspect business and operational effects before expanding to everyone.",
+    "probe": "When is a canary rollout insufficient?",
+    "pitfall": "Watching quality while ignoring latency and cost.",
+    "sources": [
+      "canary"
+    ],
+    "kind": "Practice scenario"
+  },
+  {
+    "id": "ai-project-manager-13",
+    "role": "ai-project-manager",
+    "topic": "Launch & operations",
+    "question": "How do you monitor AI after launch?",
+    "answer": "I would track input freshness, quality indicators, task outcomes and operational performance, with named owners and response thresholds. I would use appropriate human review when reliable outcomes arrive late.",
+    "scenario": "Google's Rules of ML reports a stale table in Play that had gone unrefreshed for months; refreshing it improved install rate.",
+    "action": "For an analogous system, alert on data freshness and assign ownership instead of monitoring service uptime alone.",
+    "probe": "What if the system returns responses but their usefulness slowly falls?",
+    "pitfall": "Equating availability with model quality.",
+    "sources": [
+      "ml"
+    ],
+    "kind": "Published real-world example"
+  },
+  {
+    "id": "ai-project-manager-14",
+    "role": "ai-project-manager",
+    "topic": "Launch & operations",
+    "question": "How do you control the cost of an AI workflow?",
+    "answer": "I would measure cost per successfully completed task, including retries, review and infrastructure. I would test simpler designs and set operating limits without weakening necessary quality. I would make volume assumptions and worst-case behaviour visible.",
+    "scenario": "An agent loops through tools repeatedly to answer a routine status question.",
+    "action": "Use a bounded workflow where possible, cap unnecessary iteration and compare cost and quality on representative tasks.",
+    "probe": "When would a cheaper model increase total cost?",
+    "pitfall": "Comparing only the advertised price of a model call.",
+    "sources": [
+      "agents"
+    ],
+    "kind": "Practice scenario"
+  },
+  {
+    "id": "ai-project-manager-15",
+    "role": "ai-project-manager",
+    "topic": "Launch & operations",
+    "question": "Who owns an AI system after the pilot ends?",
+    "answer": "I would agree business, technical, data and incident ownership before expansion. The handover needs evaluation maintenance, change control, monitoring and a plan for retiring or replacing the system. A pilot team should not disappear while the service remains live.",
+    "scenario": "A model depends on a data feed maintained by another department, but nobody owns changes to that dependency.",
+    "action": "Record owners, interfaces and response expectations, then rehearse how a degraded feed would be handled.",
+    "probe": "Who can pause the system if its behaviour becomes unacceptable?",
+    "pitfall": "Treating the trained model as the entire production system.",
+    "sources": [
+      "debt"
+    ],
+    "kind": "Practice scenario"
+  },
+  {
+    "id": "project-manager-16",
+    "role": "project-manager",
+    "topic": "Foundations",
+    "question": "What is project management, and what does a Project Manager do?",
+    "answer": "Project management turns an agreed need into a coordinated delivery effort. The PM connects scope, people, time, cost, quality and decisions. I would clarify the outcome, build a realistic plan with the team, monitor evidence and resolve or escalate obstacles. I would not claim to make every technical or business decision.",
+    "scenario": "A small organisation is replacing paper booking with an online service. Designers, a vendor and staff all have different assumptions about launch.",
+    "action": "Agree the supported booking journey, approval owners and readiness checks before publishing a date.",
+    "probe": "How is delivery coordination different from doing everybody’s work?",
+    "pitfall": "Describing the role only as assigning tasks and chasing updates.",
+    "sources": [
+      "pm_basics"
+    ],
+    "kind": "Practice scenario",
+    "reviewed": "2026-09-18"
+  },
+  {
+    "id": "project-manager-17",
+    "role": "project-manager",
+    "topic": "Foundations",
+    "question": "What are the main stages of a project lifecycle?",
+    "answer": "A simple explanation is starting the project, planning it, delivering and controlling the work, and closing or handing it over. These activities can overlap or repeat. I would adapt them to the uncertainty and governance needs rather than insist that every project follows a rigid sequence.",
+    "scenario": "A replacement booking service needs user discovery, incremental releases and an operational handover.",
+    "action": "Explain how approval, planning, feedback and acceptance recur as the service is developed.",
+    "probe": "Where does monitoring happen?",
+    "pitfall": "Assuming control starts only after delivery is finished.",
+    "sources": [
+      "pm_basics",
+      "agile_pm"
+    ],
+    "kind": "Practice scenario",
+    "reviewed": "2026-09-18"
+  },
+  {
+    "id": "project-manager-18",
+    "role": "project-manager",
+    "topic": "Foundations",
+    "question": "How have you used Agile in a project?",
+    "answer": "I would use a truthful example: identify the uncertainty, deliver a small useful slice, gather feedback and adapt the next plan. I would explain the decision that feedback changed and the evidence of benefit. If I lack professional Agile experience, I would say so and use a clearly labelled practice project.",
+    "scenario": "In this practice example, a booking team first delivers appointment selection and learns that users need clearer cancellation information before optional calendar features.",
+    "action": "Explain why the next release changes and how the team validates it; substitute only your own verified outcome in an interview.",
+    "probe": "What changed because of feedback rather than because of the original plan?",
+    "pitfall": "Calling daily meetings alone proof of Agile delivery.",
+    "sources": [
+      "agile_manifesto"
+    ],
+    "kind": "Practice scenario",
+    "reviewed": "2026-09-18"
+  },
+  {
+    "id": "project-manager-19",
+    "role": "project-manager",
+    "topic": "Foundations",
+    "question": "How do you handle prioritization across project tasks?",
+    "answer": "I would separate mandatory work, critical dependencies and valuable discretionary work. Then I would compare impact, urgency and capacity with the relevant owners. The order should support the delivery outcome, and any displaced commitment should be explicit.",
+    "scenario": "A team must complete a launch prerequisite, fix an accessibility issue and respond to an optional branding request.",
+    "action": "Confirm the consequence and authority behind each need, then explain the sequence and what can wait.",
+    "probe": "What if all three requests come from senior people?",
+    "pitfall": "Treating urgency as whoever asked most recently.",
+    "sources": [
+      "pm_deadline",
+      "pm_scope"
+    ],
+    "kind": "Adapted public discussion",
+    "reviewed": "2026-09-18"
+  },
+  {
+    "id": "project-manager-20",
+    "role": "project-manager",
+    "topic": "Foundations",
+    "question": "What is a RAID log, and how do you use it?",
+    "answer": "RAID commonly means risks, assumptions, issues and dependencies. I would record the condition, impact, owner, action and review date. Its value is whether it changes decisions or reduces exposure, not the number of rows maintained.",
+    "scenario": "A new PM reports feeling like an email reminder because risk owners provide status but no visible mitigation.",
+    "action": "Ask what action changes each material exposure and what evidence will confirm progress, then escalate stalled decisions.",
+    "probe": "What is the difference between tracking a risk and reducing it?",
+    "pitfall": "Updating dates without checking whether the risk response works.",
+    "sources": [
+      "risk_actions"
+    ],
+    "kind": "Adapted public discussion",
+    "reviewed": "2026-09-18"
+  },
+  {
+    "id": "project-manager-21",
+    "role": "project-manager",
+    "topic": "Conflict & escalation",
+    "question": "How do you manage conflicts between a PM and a Business Analyst?",
+    "answer": "I would separate the disputed work from the personalities, clarify what is already known and agree ownership of the missing inputs. The BA and PM should collaborate on requirements and delivery assumptions. I would seek an accountable decision if the role boundary remains unresolved.",
+    "scenario": "A public discussion describes a PM asking for requirements while a BA asks for a timeline before supplying them.",
+    "action": "Map the discovery inputs needed for planning, agree who supplies each and create a provisional plan with explicit assumptions.",
+    "probe": "What would you do if neither person accepts responsibility?",
+    "pitfall": "Using job titles as a reason to stop collaborating.",
+    "sources": [
+      "ba_conflict"
+    ],
+    "kind": "Adapted public discussion",
+    "reviewed": "2026-09-18"
+  },
+  {
+    "id": "project-manager-22",
+    "role": "project-manager",
+    "topic": "Conflict & escalation",
+    "question": "How do you manage conflict with a client who will not accept no?",
+    "answer": "I would explain the specific constraint and the conditions under which work can proceed. I would offer feasible alternatives and keep the consequence clear. If the request exceeds my authority or obligations, I would involve the accountable leader rather than soften the message until its meaning disappears.",
+    "scenario": "A construction PM reported pressure to start work before scope, contract and permit responsibilities were clear.",
+    "action": "State the outstanding decisions and the fastest valid route to readiness, while keeping a record of the request.",
+    "probe": "How would you remain diplomatic without hiding the risk?",
+    "pitfall": "Saying yes informally while documenting no privately.",
+    "sources": [
+      "client_no"
+    ],
+    "kind": "Adapted public discussion",
+    "reviewed": "2026-09-18"
+  },
+  {
+    "id": "project-manager-23",
+    "role": "project-manager",
+    "topic": "Conflict & escalation",
+    "question": "When should you escalate a project issue?",
+    "answer": "I would escalate when an unresolved issue exceeds my authority, threatens agreed tolerances or needs a decision before a critical point. I would attempt appropriate direct resolution first, unless urgency requires immediate escalation. The message needs impact, options, recommendation and a decision deadline.",
+    "scenario": "After a team transition, a PM is expected to finish work but lacks access and a clear handover.",
+    "action": "Escalate the missing access and ownership with their delivery impact, not an accusation about colleagues’ motives.",
+    "probe": "When should escalation happen immediately?",
+    "pitfall": "Waiting until the milestone fails to reveal a known blocker.",
+    "sources": [
+      "handover"
+    ],
+    "kind": "Adapted public discussion",
+    "reviewed": "2026-09-18"
+  },
+  {
+    "id": "project-manager-24",
+    "role": "project-manager",
+    "topic": "Conflict & escalation",
+    "question": "How do you write an effective escalation message?",
+    "answer": "I would lead with the decision required and its deadline, then summarise verified facts, impact, actions attempted and feasible options. I would recommend a course and keep the audience to people who can help. Afterward I would confirm ownership and follow through.",
+    "scenario": "A vendor cannot finish a necessary change by the planned launch, and the working team cannot change scope.",
+    "action": "Ask the sponsor to choose between a narrower launch and a revised date, with the consequences of each.",
+    "probe": "What if there is no response by the decision deadline?",
+    "pitfall": "Forwarding a long email chain with “please intervene” and no clear ask.",
+    "sources": [
+      "pm_deadline",
+      "daci"
+    ],
+    "kind": "Adapted public discussion",
+    "reviewed": "2026-09-18"
+  },
+  {
+    "id": "project-manager-25",
+    "role": "project-manager",
+    "topic": "Conflict & escalation",
+    "question": "How do you handle a customer escalation after repeated revisions?",
+    "answer": "I would acknowledge the specific concern, compare delivered behaviour with the agreed acceptance basis and agree a response owner and next update. I would separate defects from enhancements and avoid promising a deadline before the team assesses the work.",
+    "scenario": "A dashboard delivery keeps reopening because feedback adds requirements after each review.",
+    "action": "Resolve genuine gaps against the original agreement and create a prioritised decision list for new requests.",
+    "probe": "How would you rebuild trust if earlier updates were misleading?",
+    "pitfall": "Calling every complaint scope creep before checking the agreement.",
+    "sources": [
+      "pm_revision"
+    ],
+    "kind": "Adapted public discussion",
+    "reviewed": "2026-09-18"
+  },
+  {
+    "id": "scrum-master-16",
+    "role": "scrum-master",
+    "topic": "Foundations",
+    "question": "What is the difference between Agile and Scrum?",
+    "answer": "Agile describes values and principles for adapting delivery and learning from feedback. Scrum is a specific framework that can support that approach. I would demonstrate the distinction through decisions and usable outcomes, rather than treat Agile as a synonym for ceremonies.",
+    "scenario": "A team says it is Agile because it holds stand-ups, but customers see the product only at the end of a long build.",
+    "action": "Introduce earlier inspection of useful work and examine whether feedback changes priorities.",
+    "probe": "Can a team be Agile without using Scrum?",
+    "pitfall": "Equating a meeting calendar with adaptive delivery.",
+    "sources": [
+      "agile_manifesto"
+    ],
+    "kind": "Practice scenario",
+    "reviewed": "2026-09-18"
+  },
+  {
+    "id": "scrum-master-17",
+    "role": "scrum-master",
+    "topic": "Foundations",
+    "question": "How do Scrum and Kanban differ in practice?",
+    "answer": "Scrum uses Sprints and defined accountabilities and events. Kanban emphasises visualising workflow, limiting work in progress and improving flow. A team can use Kanban practices alongside Scrum. I would inspect demand and constraints before recommending a method.",
+    "scenario": "A support team receives unpredictable requests and keeps starting new tasks while older ones wait.",
+    "action": "Make work and waiting visible, limit simultaneous work and evaluate whether completion becomes more predictable.",
+    "probe": "Does using a board automatically mean the team uses Kanban?",
+    "pitfall": "Choosing a method because its board looks familiar.",
+    "sources": [
+      "kanban"
+    ],
+    "kind": "Practice scenario",
+    "reviewed": "2026-09-18"
+  },
+  {
+    "id": "scrum-master-18",
+    "role": "scrum-master",
+    "topic": "Foundations",
+    "question": "What are the Scrum artifacts and their commitments?",
+    "answer": "The Product Backlog, Sprint Backlog and Increment make product work transparent. Their commitments are the Product Goal, Sprint Goal and Definition of Done respectively. I would connect each artifact to the decision it supports instead of just memorising the names.",
+    "scenario": "A team has a task board but cannot explain the outcome of its current Sprint.",
+    "action": "Use the goal to discuss which work matters now and the quality criteria to distinguish usable work from unfinished activity.",
+    "probe": "Is the Sprint Backlog fixed for the whole Sprint?",
+    "pitfall": "Reciting definitions without showing how they help inspection.",
+    "sources": [
+      "scrum"
+    ],
+    "kind": "Practice scenario",
+    "reviewed": "2026-09-18"
+  },
+  {
+    "id": "scrum-master-19",
+    "role": "scrum-master",
+    "topic": "Foundations",
+    "question": "How do Sprint Review and Sprint Retrospective differ?",
+    "answer": "The Review inspects the product outcome and future direction with stakeholders. The Retrospective examines how the team works and identifies improvements. I would keep each focused while connecting product learning with changes needed in delivery.",
+    "scenario": "A review reveals that users cannot understand a status message; a retrospective reveals that feedback arrives too late.",
+    "action": "Adjust the product based on user evidence and separately trial an earlier feedback checkpoint.",
+    "probe": "How would you know the retrospective action helped?",
+    "pitfall": "Using both meetings as duplicate status presentations.",
+    "sources": [
+      "scrum",
+      "retro"
+    ],
+    "kind": "Practice scenario",
+    "reviewed": "2026-09-18"
+  },
+  {
+    "id": "scrum-master-20",
+    "role": "scrum-master",
+    "topic": "Foundations",
+    "question": "What is velocity, and should it be a performance target?",
+    "answer": "Velocity usually describes the amount of estimated work a team completes in a Sprint. It can inform a team's forecast when the context is stable. I would not use it to compare individuals or teams, and I would inspect value and quality alongside delivery data.",
+    "scenario": "Management asks a part-time team to match another team's story-point total.",
+    "action": "Explain differences in capacity and estimation, then discuss usable outcomes and forecast reliability.",
+    "probe": "What could make velocity rise without better delivery?",
+    "pitfall": "Rewarding larger estimates instead of improved outcomes.",
+    "sources": [
+      "parttime"
+    ],
+    "kind": "Adapted public discussion",
+    "reviewed": "2026-09-18"
+  },
+  {
+    "id": "scrum-master-21",
+    "role": "scrum-master",
+    "topic": "Conflict & escalation",
+    "question": "How do you resolve conflict between Developers during planning?",
+    "answer": "I would invite each person to explain the assumptions and evidence behind their view, clarify the decision needed and agree a way to test material uncertainty. I would preserve respectful disagreement while stopping personal attacks.",
+    "scenario": "Two Developers argue over implementing a quick integration or replacing a fragile component first.",
+    "action": "Ask what risk each approach addresses, whether a small experiment can reduce uncertainty and who owns the technical decision.",
+    "probe": "What if neither option can be tested quickly?",
+    "pitfall": "Choosing the loudest or most senior voice to end the meeting.",
+    "sources": [
+      "working",
+      "engineering"
+    ],
+    "kind": "Adapted public discussion",
+    "reviewed": "2026-09-18"
+  },
+  {
+    "id": "scrum-master-22",
+    "role": "scrum-master",
+    "topic": "Conflict & escalation",
+    "question": "How do you support prioritization without taking over the Product Owner’s role?",
+    "answer": "I would help expose competing needs, unclear evidence and capacity constraints, then support a transparent product decision. I would coach the process without silently becoming the owner of product priorities.",
+    "scenario": "Stakeholders push unrelated requests directly to Developers, leaving no coherent direction.",
+    "action": "Bring the requests into a visible product conversation and help the Product Owner explain trade-offs to the team.",
+    "probe": "What if the Product Owner remains unavailable?",
+    "pitfall": "Personally ranking everything because it seems faster.",
+    "sources": [
+      "evidence",
+      "latepo"
+    ],
+    "kind": "Adapted public discussion",
+    "reviewed": "2026-09-18"
+  },
+  {
+    "id": "scrum-master-23",
+    "role": "scrum-master",
+    "topic": "Conflict & escalation",
+    "question": "When should a Scrum Master escalate an impediment?",
+    "answer": "I would help the team address what it can control and escalate an organisational constraint when resolution requires authority or coordination it lacks. I would show impact, attempts made and the specific help required while preserving team ownership.",
+    "scenario": "A dependent team repeatedly misses an agreed review, blocking integration.",
+    "action": "Bring the delivery impact and realistic options to the person who can resolve the cross-team priority conflict.",
+    "probe": "How do you prevent yourself becoming the escalation bottleneck?",
+    "pitfall": "Treating self-management as a reason never to seek organisational help.",
+    "sources": [
+      "blockers"
+    ],
+    "kind": "Adapted public discussion",
+    "reviewed": "2026-09-18"
+  },
+  {
+    "id": "scrum-master-24",
+    "role": "scrum-master",
+    "topic": "Conflict & escalation",
+    "question": "How do you handle an escalation about a developer’s performance?",
+    "answer": "I would ask for observable evidence and separate a delivery-system issue from an individual employment matter. I would support clarity and feedback, but formal performance management belongs with the appropriate people manager. I would not use team events for public accusations.",
+    "scenario": "A developer is blamed for slow completion while also reviewing every junior colleague's work and coordinating two projects.",
+    "action": "Make workload and conflicting responsibilities visible before interpreting the delay as lack of effort.",
+    "probe": "When should a manager or HR become involved?",
+    "pitfall": "Using velocity or one missed item as proof of poor performance.",
+    "sources": [
+      "multirole"
+    ],
+    "kind": "Adapted public discussion",
+    "reviewed": "2026-09-18"
+  },
+  {
+    "id": "scrum-master-25",
+    "role": "scrum-master",
+    "topic": "Conflict & escalation",
+    "question": "How would you introduce Agile to a team starting from scratch?",
+    "answer": "I would establish the delivery problem and explain a few relevant practices in plain language. I would introduce a manageable experiment with team input, support learning and inspect its effect. I would avoid forcing every ritual without understanding the work.",
+    "scenario": "A small part-time team struggles with long planning sessions after a process change.",
+    "action": "Clarify goals and available capacity, improve preparation and evaluate whether the process supports usable delivery.",
+    "probe": "How would you handle resistance from an experienced team member?",
+    "pitfall": "Assuming resistance means people dislike improvement.",
+    "sources": [
+      "parttime",
+      "agile_pm"
+    ],
+    "kind": "Adapted public discussion",
+    "reviewed": "2026-09-18"
+  },
+  {
+    "id": "product-manager-16",
+    "role": "product-manager",
+    "topic": "Foundations",
+    "question": "How is a Product Manager different from a Project Manager?",
+    "answer": "A Product Manager focuses on which customer and business problems are worth solving and whether the product creates value. A Project Manager coordinates a defined delivery effort. Titles and boundaries vary, so I would clarify actual decisions and outcomes rather than assume a universal hierarchy.",
+    "scenario": "An organisation uses PM to mean delivery coordination in one team and product strategy in another.",
+    "action": "Ask who owns discovery, investment choices and delivery commitments before accepting the role boundary.",
+    "probe": "Can a product succeed while a particular project is late?",
+    "pitfall": "Reducing the distinction to “what” versus “when” without acknowledging overlap.",
+    "sources": [
+      "roles"
+    ],
+    "kind": "Adapted public discussion",
+    "reviewed": "2026-09-18"
+  },
+  {
+    "id": "product-manager-17",
+    "role": "product-manager",
+    "topic": "Foundations",
+    "question": "What is the difference between product vision, strategy and roadmap?",
+    "answer": "Vision describes the intended future. Strategy identifies the customers, problem and choices for pursuing it. A roadmap communicates direction and likely sequencing. I would show how a planned initiative supports the strategy and what uncertainty remains.",
+    "scenario": "A retailer wants easier returns, chooses frequent online shoppers first and sequences improvements to the returns journey.",
+    "action": "Explain why each initiative belongs and what evidence could change its order.",
+    "probe": "Is every roadmap date a delivery commitment?",
+    "pitfall": "Calling a feature list a complete strategy.",
+    "sources": [
+      "roadmap"
+    ],
+    "kind": "Practice scenario",
+    "reviewed": "2026-09-18"
+  },
+  {
+    "id": "product-manager-18",
+    "role": "product-manager",
+    "topic": "Foundations",
+    "question": "What is an MVP, and how is it different from a prototype?",
+    "answer": "A minimum viable product is a limited product version used to learn from real use while delivering an appropriate minimum experience. A prototype explores ideas and may not operate as a real service. I would define the learning question and limitations clearly.",
+    "scenario": "A team tests a returns concept with clickable screens before offering a narrow live pilot to selected customers.",
+    "action": "Use the prototype to examine understanding, then assess actual use and operational effort in the pilot.",
+    "probe": "What would make a minimal release unsafe or misleading?",
+    "pitfall": "Calling unfinished software an MVP to excuse missing essentials.",
+    "sources": [
+      "mvp"
+    ],
+    "kind": "Practice scenario",
+    "reviewed": "2026-09-18"
+  },
+  {
+    "id": "product-manager-19",
+    "role": "product-manager",
+    "topic": "Foundations",
+    "question": "What is the difference between a product output and an outcome?",
+    "answer": "An output is something delivered, such as a feature. An outcome is the change it produces for users or the business. I would connect delivery to an observable result and check for unintended effects.",
+    "scenario": "A team ships a self-service support page, but customers still call because they cannot find the relevant answer.",
+    "action": "Measure successful resolution and investigate failed journeys instead of celebrating only publication.",
+    "probe": "Can an output be necessary even if its outcome is hard to isolate?",
+    "pitfall": "Reporting shipped features as proof of customer value.",
+    "sources": [
+      "metrics"
+    ],
+    "kind": "Practice scenario",
+    "reviewed": "2026-09-18"
+  },
+  {
+    "id": "product-manager-20",
+    "role": "product-manager",
+    "topic": "Foundations",
+    "question": "How would you answer a product-improvement interview question?",
+    "answer": "I would clarify the product goal and target user, identify a specific problem and compare possible solutions. I would state assumptions, select one option and explain how to test success. I would not start listing features before understanding the need.",
+    "scenario": "The interviewer asks you to improve an appointment-booking app.",
+    "action": "Choose a segment and investigate a concrete problem, such as difficulty rescheduling, before proposing a solution.",
+    "probe": "What evidence would make you change the target problem?",
+    "pitfall": "Listing ten improvements without prioritising one.",
+    "sources": [
+      "discovery",
+      "interviews"
+    ],
+    "kind": "Practice scenario",
+    "reviewed": "2026-09-18"
+  },
+  {
+    "id": "product-manager-21",
+    "role": "product-manager",
+    "topic": "Conflict & escalation",
+    "question": "How do you handle prioritization when revenue and user experience conflict?",
+    "answer": "I would examine the actual trade-off, affected segment and time horizon. I would test whether the proposed revenue gain damages retention, trust or support cost and consider alternatives. I would make the decision and its guardrails explicit.",
+    "scenario": "A product team considers adding an extra upsell step to a checkout journey.",
+    "action": "Compare incremental value with completion and customer-friction measures rather than treating more clicks as a win.",
+    "probe": "What if revenue rises while complaints also rise?",
+    "pitfall": "Assuming the highest short-term revenue is automatically the best product decision.",
+    "sources": [
+      "metrics",
+      "experiments"
+    ],
+    "kind": "Practice scenario",
+    "reviewed": "2026-09-18"
+  },
+  {
+    "id": "product-manager-22",
+    "role": "product-manager",
+    "topic": "Conflict & escalation",
+    "question": "How do you manage conflict between Product and Engineering?",
+    "answer": "I would separate the desired outcome from the proposed implementation, compare constraints and seek feasible options with engineering. I would respect technical ownership while remaining accountable for product trade-offs. Unresolved investment decisions need a clear owner.",
+    "scenario": "A public discussion describes capacity and estimates ending roadmap conversations before scope alternatives are explored.",
+    "action": "Ask which smaller outcome could be delivered and which dependencies make the requested date unrealistic.",
+    "probe": "When is the right answer to stop pushing for a smaller estimate?",
+    "pitfall": "Treating technical concerns as a negotiation tactic by default.",
+    "sources": [
+      "engineering"
+    ],
+    "kind": "Adapted public discussion",
+    "reviewed": "2026-09-18"
+  },
+  {
+    "id": "product-manager-23",
+    "role": "product-manager",
+    "topic": "Conflict & escalation",
+    "question": "How do you resolve conflict between Sales and the product roadmap?",
+    "answer": "I would clarify the promised customer outcome, commercial exposure and broader relevance. I would explore configuration or service alternatives and make displaced work visible. If an exception is warranted, I would record who decides and why.",
+    "scenario": "A sales commitment for one account arrives after the team has planned a broad onboarding improvement.",
+    "action": "Assess the customer problem and opportunity cost before choosing an exception or renegotiating the promise.",
+    "probe": "What changes if the promise is contractual?",
+    "pitfall": "Committing engineering capacity before discussing feasibility.",
+    "sources": [
+      "evidence",
+      "daci"
+    ],
+    "kind": "Adapted public discussion",
+    "reviewed": "2026-09-18"
+  },
+  {
+    "id": "product-manager-24",
+    "role": "product-manager",
+    "topic": "Conflict & escalation",
+    "question": "When should a Product Manager escalate a strategic disagreement?",
+    "answer": "I would escalate when the decision crosses my authority, conflicts with company direction or requires investment ownership beyond the team. I would present evidence and alternatives with a recommendation, while showing the consequence of delaying the choice.",
+    "scenario": "Two business units demand incompatible target markets for the same small product team.",
+    "action": "Ask the accountable leader to choose the strategic focus, then align the roadmap with the recorded decision.",
+    "probe": "How is this different from escalating every disagreement?",
+    "pitfall": "Using escalation to win an argument instead of obtain a needed decision.",
+    "sources": [
+      "daci"
+    ],
+    "kind": "Practice scenario",
+    "reviewed": "2026-09-18"
+  },
+  {
+    "id": "product-manager-25",
+    "role": "product-manager",
+    "topic": "Conflict & escalation",
+    "question": "How do you handle a customer escalation after a product change?",
+    "answer": "I would establish the customer's actual loss of capability, determine who else is affected and coordinate containment with the relevant owners. I would communicate the next update and use evidence to decide whether to reverse, repair or support an alternative.",
+    "scenario": "A workflow change prevents some enterprise users from completing their established task.",
+    "action": "Inspect the affected journey and weigh a targeted fix against rollback, including impact on other users.",
+    "probe": "When would one affected customer justify immediate action?",
+    "pitfall": "Dismissing the complaint because overall adoption looks healthy.",
+    "sources": [
+      "latepo",
+      "canary"
+    ],
+    "kind": "Adapted public discussion",
+    "reviewed": "2026-09-18"
+  },
+  {
+    "id": "product-owner-16",
+    "role": "product-owner",
+    "topic": "Foundations",
+    "question": "What is a Product Goal, and how does it guide the backlog?",
+    "answer": "The Product Goal gives the team a longer-term objective. I would use it to explain why upcoming work matters and how competing ideas support or distract from that objective. It should guide choices, not merely appear on a slide.",
+    "scenario": "A team wants customers to manage routine account changes without contacting support.",
+    "action": "Assess address editing and account access work against that goal before accepting unrelated dashboard requests.",
+    "probe": "What evidence would justify changing the goal?",
+    "pitfall": "Writing a vague aspiration that cannot guide a decision.",
+    "sources": [
+      "scrum"
+    ],
+    "kind": "Practice scenario",
+    "reviewed": "2026-09-18"
+  },
+  {
+    "id": "product-owner-17",
+    "role": "product-owner",
+    "topic": "Foundations",
+    "question": "What is the difference between a Product Backlog and a Sprint Backlog?",
+    "answer": "The Product Backlog contains ordered product work. The Sprint Backlog is the Developers' plan for the Sprint, including its goal and selected work. I would explain who adapts each and how they connect without treating either as a rigid contract.",
+    "scenario": "New customer learning changes a future requirement while Developers adjust the current implementation plan.",
+    "action": "Update the relevant backlog and discuss impact on the current goal rather than mixing every change into today's work.",
+    "probe": "Who decides how the selected work is implemented?",
+    "pitfall": "Assuming the Product Owner assigns all daily tasks.",
+    "sources": [
+      "scrum"
+    ],
+    "kind": "Practice scenario",
+    "reviewed": "2026-09-18"
+  },
+  {
+    "id": "product-owner-18",
+    "role": "product-owner",
+    "topic": "Foundations",
+    "question": "What is backlog refinement, and who should participate?",
+    "answer": "Refinement improves shared understanding and makes upcoming work manageable. I would involve people whose knowledge is needed to clarify value, behaviour, uncertainty and effort. It is ongoing work, not a document approval ceremony reserved for one role.",
+    "scenario": "A BA refines stories, but the Product Owner later requests different behaviour after development.",
+    "action": "Bring the Product Owner into consequential decisions early and record concrete examples everyone can inspect.",
+    "probe": "How do you know when further refinement is no longer useful?",
+    "pitfall": "Seeking exhaustive detail for distant work.",
+    "sources": [
+      "latepo"
+    ],
+    "kind": "Adapted public discussion",
+    "reviewed": "2026-09-18"
+  },
+  {
+    "id": "product-owner-19",
+    "role": "product-owner",
+    "topic": "Foundations",
+    "question": "Who should estimate user stories, and what do story points mean?",
+    "answer": "The people doing the work should estimate it using a method they understand. Story points are a team's relative estimate, not a universal unit of time or individual productivity. I would provide clarity and negotiate scope rather than set the estimate to match my preferred date.",
+    "scenario": "A team with part-time members is pressured to select the same point total every Sprint.",
+    "action": "Discuss actual availability and uncertainty before making a forecast.",
+    "probe": "Why can two teams assign different points to similar work?",
+    "pitfall": "Treating one point as a fixed number of hours across the organisation.",
+    "sources": [
+      "parttime"
+    ],
+    "kind": "Adapted public discussion",
+    "reviewed": "2026-09-18"
+  },
+  {
+    "id": "product-owner-20",
+    "role": "product-owner",
+    "topic": "Foundations",
+    "question": "Is the end of a Sprint the same as a release?",
+    "answer": "No. A Sprint is a planning and learning cadence; a release makes a usable result available to its intended users. Release timing depends on readiness and context. I would distinguish completed work from a release commitment.",
+    "scenario": "A team finishes useful work earlier but must coordinate an external dependency before exposing the full workflow.",
+    "action": "Clarify what is usable now and what prevents wider availability, rather than assuming all releases happen at the review.",
+    "probe": "Can several usable increments be created in one Sprint?",
+    "pitfall": "Making the Sprint Review an automatic release gate.",
+    "sources": [
+      "scrum",
+      "canary"
+    ],
+    "kind": "Practice scenario",
+    "reviewed": "2026-09-18"
+  },
+  {
+    "id": "product-owner-21",
+    "role": "product-owner",
+    "topic": "Conflict & escalation",
+    "question": "How do you prioritise defects against new backlog features?",
+    "answer": "I would compare user impact, frequency, available workarounds, obligations and the cost of delay. I would ask engineering about remediation and sequencing, then make the displacement of planned value explicit.",
+    "scenario": "A frequent checkout failure competes with an optional reporting feature requested by a stakeholder.",
+    "action": "Confirm the failure's scope and prioritise a proportionate response with clear communication about what moves.",
+    "probe": "When can a low-frequency defect still be the top priority?",
+    "pitfall": "Using age or ticket count as the only priority rule.",
+    "sources": [
+      "canary",
+      "pm_revision"
+    ],
+    "kind": "Adapted public discussion",
+    "reviewed": "2026-09-18"
+  },
+  {
+    "id": "product-owner-22",
+    "role": "product-owner",
+    "topic": "Conflict & escalation",
+    "question": "How do you resolve conflict about acceptance criteria?",
+    "answer": "I would use concrete examples to locate the disagreement and compare them with the agreed need. I would involve the right domain owner, distinguish an unclear requirement from a new request and record the decision before more work depends on it.",
+    "scenario": "A finished approval workflow differs from what the Product Owner expected, although the team followed the written story.",
+    "action": "Walk through the actual decision rules together, resolve gaps and arrange earlier review of uncertain behaviour.",
+    "probe": "What if the acceptance criteria contradict the business objective?",
+    "pitfall": "Saying “it was in the ticket” instead of resolving the underlying issue.",
+    "sources": [
+      "latepo"
+    ],
+    "kind": "Adapted public discussion",
+    "reviewed": "2026-09-18"
+  },
+  {
+    "id": "product-owner-23",
+    "role": "product-owner",
+    "topic": "Conflict & escalation",
+    "question": "How do you handle conflict when stakeholders directly assign work to Developers?",
+    "answer": "I would make the request visible, understand any genuine urgency and discuss its impact with the team. I would explain the product decision process and offer a responsive route for future requests, without blaming Developers for responding to pressure.",
+    "scenario": "A senior stakeholder repeatedly adds small tasks during an integration effort.",
+    "action": "Evaluate the cumulative disruption and clarify which work is now being deferred.",
+    "probe": "How would you handle a true production emergency?",
+    "pitfall": "Treating every interruption as disobedience rather than assessing impact.",
+    "sources": [
+      "working",
+      "blockers"
+    ],
+    "kind": "Adapted public discussion",
+    "reviewed": "2026-09-18"
+  },
+  {
+    "id": "product-owner-24",
+    "role": "product-owner",
+    "topic": "Conflict & escalation",
+    "question": "When should a Product Owner escalate a backlog decision?",
+    "answer": "I would normally own product ordering within my authority. I would escalate a conflict involving investment, obligations or competing organisational mandates that I cannot resolve. I would provide clear options and remain responsible for updating the backlog after the decision.",
+    "scenario": "A mandatory business commitment and a strategic initiative require the same unavailable capacity.",
+    "action": "Ask the accountable owner to resolve the constraint with explicit consequences for each commitment.",
+    "probe": "How do you avoid delegating all difficult prioritisation upward?",
+    "pitfall": "Escalating simply because a stakeholder dislikes the priority.",
+    "sources": [
+      "daci"
+    ],
+    "kind": "Practice scenario",
+    "reviewed": "2026-09-18"
+  },
+  {
+    "id": "product-owner-25",
+    "role": "product-owner",
+    "topic": "Conflict & escalation",
+    "question": "How do you handle an escalation that the team delivered the wrong thing?",
+    "answer": "I would compare the delivered behaviour, original examples and current expectations. I would acknowledge any requirement or communication failure, agree containment and decide what correction or new work is required. Then I would improve the feedback point that failed.",
+    "scenario": "The Product Owner only tests at the end and asks for a different workflow from the refined one.",
+    "action": "Agree the next action without relabelling all rework as developer error, and arrange earlier checks on uncertain decisions.",
+    "probe": "What if the requirement was clear but misunderstood?",
+    "pitfall": "Protecting the backlog record instead of resolving the customer problem.",
+    "sources": [
+      "latepo"
+    ],
+    "kind": "Adapted public discussion",
+    "reviewed": "2026-09-18"
+  },
+  {
+    "id": "ai-project-manager-16",
+    "role": "ai-project-manager",
+    "topic": "Foundations",
+    "question": "What does an AI Project Manager need to understand from scratch?",
+    "answer": "I would understand the business workflow, data dependencies, evaluation, delivery risks and operating ownership well enough to coordinate specialist decisions. I do not need to pretend to be the model researcher, but I must ask what evidence supports feasibility and readiness.",
+    "scenario": "A company wants an assistant that drafts responses from its internal policies.",
+    "action": "Map data ownership, permissions, success criteria, review needs and release decisions before promising automation benefits.",
+    "probe": "Which questions must be answered by a domain or technical specialist?",
+    "pitfall": "Equating AI project management with writing prompts.",
+    "sources": [
+      "nist",
+      "debt"
+    ],
+    "kind": "Practice scenario",
+    "reviewed": "2026-09-18"
+  },
+  {
+    "id": "ai-project-manager-17",
+    "role": "ai-project-manager",
+    "topic": "Foundations",
+    "question": "What is the difference between predictive AI and generative AI?",
+    "answer": "Predictive systems estimate a defined outcome such as a category or score. Generative systems create content such as text. Both require task-specific evaluation, and a generated explanation should not be mistaken for a verified fact.",
+    "scenario": "A support organisation compares automatic ticket categorisation with drafting replies.",
+    "action": "Evaluate category errors separately from unsupported reply content because their consequences and review needs differ.",
+    "probe": "Can one workflow combine both approaches?",
+    "pitfall": "Applying one generic accuracy percentage to every AI task.",
+    "sources": [
+      "ml",
+      "agents"
+    ],
+    "kind": "Practice scenario",
+    "reviewed": "2026-09-18"
+  },
+  {
+    "id": "ai-project-manager-18",
+    "role": "ai-project-manager",
+    "topic": "Foundations",
+    "question": "What is RAG, and why might a project use it?",
+    "answer": "Retrieval-augmented generation retrieves relevant information to help a model answer using supplied context. It can support access to changing or specific knowledge, but it does not guarantee correctness. I would plan retrieval quality, permissions and answer evaluation together.",
+    "scenario": "A policy assistant must answer from current approved documents rather than rely only on the model's learned knowledge.",
+    "action": "Test whether it retrieves the right authorised material and whether the response is actually supported by that material.",
+    "probe": "What happens if the retrieved document is obsolete?",
+    "pitfall": "Assuming the presence of a citation proves the answer is true.",
+    "sources": [
+      "rag"
+    ],
+    "kind": "Practice scenario",
+    "reviewed": "2026-09-18"
+  },
+  {
+    "id": "ai-project-manager-19",
+    "role": "ai-project-manager",
+    "topic": "Foundations",
+    "question": "What are precision and recall in plain language?",
+    "answer": "Precision asks how many flagged cases were actually relevant; recall asks how many relevant cases were found. I would work with specialists to choose a threshold based on the consequences of false alarms and missed cases, not a preferred-looking score.",
+    "scenario": "A system flags messages for manual review. Too many false alarms overwhelm reviewers, but missed urgent cases also matter.",
+    "action": "Discuss the trade-off and reviewer capacity before choosing a threshold.",
+    "probe": "Why can high overall accuracy still hide a poor result?",
+    "pitfall": "Selecting the metric after seeing which one looks best.",
+    "sources": [
+      "precision"
+    ],
+    "kind": "Practice scenario",
+    "reviewed": "2026-09-18"
+  },
+  {
+    "id": "ai-project-manager-20",
+    "role": "ai-project-manager",
+    "topic": "Foundations",
+    "question": "What is the difference between an AI experiment and a production-ready service?",
+    "answer": "An experiment tests feasibility under limited conditions. A service also needs reliable data flow, integration, access control, monitoring, support and change handling. I would track the evidence for each instead of equating a convincing demo with readiness.",
+    "scenario": "A document assistant works for its creator but depends on manual file preparation and has no support owner.",
+    "action": "Expose those dependencies in the plan and demonstrate the full workflow before expanding access.",
+    "probe": "Which production dependency usually gets underestimated?",
+    "pitfall": "Budgeting only for model work.",
+    "sources": [
+      "debt"
+    ],
+    "kind": "Practice scenario",
+    "reviewed": "2026-09-18"
+  },
+  {
+    "id": "ai-project-manager-21",
+    "role": "ai-project-manager",
+    "topic": "Prioritisation, conflict & escalation",
+    "question": "How do you handle prioritization across AI use cases?",
+    "answer": "I would compare business impact, workflow suitability, data readiness, risk and total operating effort. I would choose a bounded use case with measurable benefit and a credible fallback before pursuing broad autonomy. Attractive demos should not outrank unaddressed feasibility risks.",
+    "scenario": "A team considers low-risk internal document assistance and automatic decisions with serious customer consequences.",
+    "action": "Evaluate the constraints separately and sequence learning so the first investment answers a useful question.",
+    "probe": "When could the higher-risk option still be justified?",
+    "pitfall": "Ranking ideas only by how impressive the AI output looks.",
+    "sources": [
+      "nist",
+      "ml"
+    ],
+    "kind": "Practice scenario",
+    "reviewed": "2026-09-18"
+  },
+  {
+    "id": "ai-project-manager-22",
+    "role": "ai-project-manager",
+    "topic": "Prioritisation, conflict & escalation",
+    "question": "How do you resolve conflict between data scientists and business stakeholders?",
+    "answer": "I would translate both positions into the decision at stake: acceptable business outcome, uncertainty and consequences. I would agree a task-relevant evaluation and involve the authorised owner when the requested trade-off exceeds the team's authority.",
+    "scenario": "The business wants a launch date while the data team says the evaluation set does not represent actual use.",
+    "action": "Create a bounded pilot or evidence milestone if appropriate, instead of forcing an unsupported quality claim.",
+    "probe": "What if the business says it accepts all risk?",
+    "pitfall": "Treating a model score as a substitute for business acceptance.",
+    "sources": [
+      "playbook"
+    ],
+    "kind": "Practice scenario",
+    "reviewed": "2026-09-18"
+  },
+  {
+    "id": "ai-project-manager-23",
+    "role": "ai-project-manager",
+    "topic": "Prioritisation, conflict & escalation",
+    "question": "How do you manage conflict over AI quality, latency and cost?",
+    "answer": "I would make the competing requirements measurable and compare options on the same representative tasks. I would include review and retries in cost, state unacceptable failure modes and seek a product decision on the remaining trade-off.",
+    "scenario": "A more elaborate agent gives better responses but takes too long for the live workflow.",
+    "action": "Compare a simpler bounded approach and explain which task quality is lost or retained before deciding.",
+    "probe": "Could lower model cost increase total operating cost?",
+    "pitfall": "Optimising one measure while hiding a worse end-to-end outcome.",
+    "sources": [
+      "agents"
+    ],
+    "kind": "Practice scenario",
+    "reviewed": "2026-09-18"
+  },
+  {
+    "id": "ai-project-manager-24",
+    "role": "ai-project-manager",
+    "topic": "Prioritisation, conflict & escalation",
+    "question": "When should you escalate an AI risk before launch?",
+    "answer": "I would escalate when the planned release lacks necessary evidence, creates material harm or needs risk acceptance beyond the team's authority. I would describe affected users, known limitations, options and the launch decision required, supported by specific examples.",
+    "scenario": "Testing finds that the assistant reliably serves most documents but mishandles a consequential category.",
+    "action": "Recommend a narrower release or further validation and involve the accountable risk owner before expansion.",
+    "probe": "What if management asks you to hide the failed category from reporting?",
+    "pitfall": "Using an average result to conceal a material failure.",
+    "sources": [
+      "playbook"
+    ],
+    "kind": "Practice scenario",
+    "reviewed": "2026-09-18"
+  },
+  {
+    "id": "ai-project-manager-25",
+    "role": "ai-project-manager",
+    "topic": "Prioritisation, conflict & escalation",
+    "question": "How do you handle an escalation after an AI system gives a harmful answer?",
+    "answer": "I would coordinate containment, preserve relevant evidence under applicable data rules and assess affected users with responsible specialists. I would use the incident process and recovery criteria, then investigate the contributing data, retrieval, model or workflow failures.",
+    "scenario": "An assistant invents a policy exception and users begin relying on it.",
+    "action": "Limit the affected capability, provide a supported alternative and validate the correction before restoring full use.",
+    "probe": "How would you determine whether similar answers reached other users?",
+    "pitfall": "Changing a prompt and declaring the incident resolved without evidence.",
+    "sources": [
+      "postmortem",
+      "playbook"
+    ],
+    "kind": "Practice scenario",
+    "reviewed": "2026-09-18"
+  }
+]

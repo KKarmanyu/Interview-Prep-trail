@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Disallow: /api/
+Sitemap: https://interview-ready.karmanyu-korveni-52.chatgpt.site/sitemap.xml

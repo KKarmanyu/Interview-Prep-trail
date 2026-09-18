@@ -1,0 +1,248 @@
+{
+  "pm_scope": {
+    "title": "PMI · Causes of scope creep",
+    "url": "https://www.pmi.org/learning/library/top-five-causes-scope-creep-6675",
+    "type": "Professional guidance",
+    "reviewed": "2026-09-18"
+  },
+  "pm_deadline": {
+    "title": "Reddit · Unrealistic deadlines",
+    "url": "https://www.reddit.com/r/projectmanagement/comments/1vz2m25/how_do_you_deal_with_unrealistic_deadlines/",
+    "type": "Public discussion",
+    "reviewed": "2026-09-18"
+  },
+  "pm_revision": {
+    "title": "Reddit · Delivery versus client feedback",
+    "url": "https://www.reddit.com/r/projectmanagement/comments/1w0sm6e/optimizing_jira_story_tracking_separating/",
+    "type": "Public discussion",
+    "reviewed": "2026-09-18"
+  },
+  "pm_approval": {
+    "title": "Reddit · Approval of a vendor change",
+    "url": "https://www.reddit.com/r/projectmanagement/comments/1vuzgya/should_i_involve_user_to_get_approval_for_this/",
+    "type": "Public discussion",
+    "reviewed": "2026-09-18"
+  },
+  "scrum": {
+    "title": "The Scrum Guide · 2020",
+    "url": "https://scrumguides.org/scrum-guide.html",
+    "type": "Primary reference",
+    "reviewed": "2026-09-18"
+  },
+  "retro": {
+    "title": "Atlassian · Effective retrospectives",
+    "url": "https://www.atlassian.com/agile/scrum/retrospectives",
+    "type": "Practitioner guidance",
+    "reviewed": "2026-09-18"
+  },
+  "parttime": {
+    "title": "Reddit · Scrum with a part-time team",
+    "url": "https://www.reddit.com/r/scrum/comments/1wherkm/testing_scrum_with_a_small_and_parttime_team_how/",
+    "type": "Public discussion",
+    "reviewed": "2026-09-18"
+  },
+  "blockers": {
+    "title": "Reddit · Cross-team dependencies",
+    "url": "https://www.reddit.com/r/scrum/comments/1wf9h17/how_does_your_team_actually_track_crossteam/",
+    "type": "Public discussion",
+    "reviewed": "2026-09-18"
+  },
+  "evidence": {
+    "title": "Reddit · Backlog items without evidence",
+    "url": "https://www.reddit.com/r/scrum/comments/1w6zr47/the_items_that_pass_refinement_easiest_are_the/",
+    "type": "Public discussion",
+    "reviewed": "2026-09-18"
+  },
+  "roles": {
+    "title": "Reddit · Product Manager versus Product Owner",
+    "url": "https://www.reddit.com/r/ProductManagement/comments/1w4affm/product_manager_vs_product_owner/",
+    "type": "Public discussion",
+    "reviewed": "2026-09-18"
+  },
+  "engineering": {
+    "title": "Reddit · Engineering and roadmap decisions",
+    "url": "https://www.reddit.com/r/ProductManagement/comments/1w3zv4f/when_does_engineering_have_too_much_control_over/",
+    "type": "Public discussion",
+    "reviewed": "2026-09-18"
+  },
+  "latepo": {
+    "title": "Reddit · Product Owner involvement in refinement",
+    "url": "https://www.reddit.com/r/ProductManagement/comments/1w3mok9/how_involved_are_pmpos_in_requirements_and/",
+    "type": "Public discussion",
+    "reviewed": "2026-09-18"
+  },
+  "prototype": {
+    "title": "Reddit · Prototypes exposing requirement gaps",
+    "url": "https://www.reddit.com/r/ProductManagement/comments/1w32yet/uiux_design_keeps_exposing_gaps_in_my_prdis_this/",
+    "type": "Public discussion",
+    "reviewed": "2026-09-18"
+  },
+  "rice": {
+    "title": "Intercom · RICE prioritisation",
+    "url": "https://www.intercom.com/blog/rice-simple-prioritization-for-product-managers/",
+    "type": "First-hand practice",
+    "reviewed": "2026-09-18"
+  },
+  "discovery": {
+    "title": "GOV.UK · Discovery phase",
+    "url": "https://www.gov.uk/service-manual/agile-delivery/how-the-discovery-phase-works",
+    "type": "Primary reference",
+    "reviewed": "2026-09-18"
+  },
+  "interviews": {
+    "title": "GOV.UK · In-depth user interviews",
+    "url": "https://www.gov.uk/service-manual/user-research/using-in-depth-interviews",
+    "type": "Primary reference",
+    "reviewed": "2026-09-18"
+  },
+  "metrics": {
+    "title": "GOV.UK · Measuring service success",
+    "url": "https://www.gov.uk/service-manual/measuring-success/measuring-the-success-of-your-service",
+    "type": "Primary reference",
+    "reviewed": "2026-09-18"
+  },
+  "experiments": {
+    "title": "Microsoft Research · Experimentation Platform",
+    "url": "https://www.microsoft.com/en-us/research/group/experimentation-platform-exp/",
+    "type": "First-hand practice",
+    "reviewed": "2026-09-18"
+  },
+  "postmortem": {
+    "title": "Google SRE · Blameless postmortems",
+    "url": "https://sre.google/sre-book/postmortem-culture/",
+    "type": "First-hand practice",
+    "reviewed": "2026-09-18"
+  },
+  "canary": {
+    "title": "Google SRE · Canarying releases",
+    "url": "https://sre.google/workbook/canarying-releases/",
+    "type": "First-hand practice",
+    "reviewed": "2026-09-18"
+  },
+  "ml": {
+    "title": "Google · Rules of Machine Learning",
+    "url": "https://developers.google.com/machine-learning/guides/rules-of-ml",
+    "type": "First-hand practice",
+    "reviewed": "2026-09-18"
+  },
+  "debt": {
+    "title": "Google Research · Hidden technical debt in ML",
+    "url": "https://research.google/pubs/hidden-technical-debt-in-machine-learning-systems/",
+    "type": "Research paper",
+    "reviewed": "2026-09-18"
+  },
+  "agents": {
+    "title": "Anthropic · Building effective agents",
+    "url": "https://www.anthropic.com/engineering/building-effective-agents",
+    "type": "First-hand practice",
+    "reviewed": "2026-09-18"
+  },
+  "nist": {
+    "title": "NIST · AI Risk Management Framework",
+    "url": "https://www.nist.gov/itl/ai-risk-management-framework",
+    "type": "Primary reference",
+    "reviewed": "2026-09-18"
+  },
+  "playbook": {
+    "title": "NIST · AI RMF Playbook",
+    "url": "https://www.nist.gov/itl/ai-risk-management-framework/nist-ai-rmf-playbook",
+    "type": "Primary reference",
+    "reviewed": "2026-09-18"
+  },
+  "okr": {
+    "title": "What Matters · OKRs and competing operational work",
+    "url": "https://www.whatmatters.com/faqs/dear-andy-okr-prioritization-and-clarity",
+    "type": "Practitioner guidance",
+    "reviewed": "2026-09-18"
+  },
+  "agile_manifesto": {
+    "title": "Agile Manifesto · Principles",
+    "url": "https://agilemanifesto.org/principles.html",
+    "type": "Primary reference",
+    "reviewed": "2026-09-18"
+  },
+  "daci": {
+    "title": "Atlassian · Decision roles with DACI",
+    "url": "https://www.atlassian.com/team-playbook/plays/daci",
+    "type": "Practitioner guidance",
+    "reviewed": "2026-09-18"
+  },
+  "working": {
+    "title": "Atlassian · Working agreements",
+    "url": "https://www.atlassian.com/team-playbook/plays/working-agreements",
+    "type": "First-hand practice",
+    "reviewed": "2026-09-18"
+  },
+  "agile_pm": {
+    "title": "Atlassian · Agile project management",
+    "url": "https://www.atlassian.com/agile/project-management",
+    "type": "Practitioner guidance",
+    "reviewed": "2026-09-18"
+  },
+  "kanban": {
+    "title": "Atlassian · Kanban",
+    "url": "https://www.atlassian.com/agile/kanban",
+    "type": "Practitioner guidance",
+    "reviewed": "2026-09-18"
+  },
+  "ba_conflict": {
+    "title": "Reddit · PM and BA responsibility dispute",
+    "url": "https://www.reddit.com/r/projectmanagement/comments/1w15qi2/rant_ive_about_had_it_with_business_analysts_in/",
+    "type": "Public discussion",
+    "reviewed": "2026-09-18"
+  },
+  "handover": {
+    "title": "Reddit · Unclear ownership after a team transition",
+    "url": "https://www.reddit.com/r/projectmanagement/comments/1w0sg1j/engineered_sink_or_swim/",
+    "type": "Public discussion",
+    "reviewed": "2026-09-18"
+  },
+  "risk_actions": {
+    "title": "Reddit · Risk management beyond reminders",
+    "url": "https://www.reddit.com/r/projectmanagement/comments/1vyysz3/how_do_you_handle_risk_management_without_being/",
+    "type": "Public discussion",
+    "reviewed": "2026-09-18"
+  },
+  "client_no": {
+    "title": "Reddit · Pushing back on an owner’s request",
+    "url": "https://www.reddit.com/r/projectmanagement/comments/1vu0np1/how_do_you_deal_with_an_owner_who_wants_a_strong/",
+    "type": "Public discussion",
+    "reviewed": "2026-09-18"
+  },
+  "multirole": {
+    "title": "Reddit · Competing development and delivery responsibilities",
+    "url": "https://www.reddit.com/r/scrum/comments/1waxfte/how_do_i_survive_this_multirole_situation/",
+    "type": "Public discussion",
+    "reviewed": "2026-09-18"
+  },
+  "precision": {
+    "title": "Google · Accuracy, precision and recall",
+    "url": "https://developers.google.com/machine-learning/crash-course/classification/accuracy-precision-recall",
+    "type": "Primary reference",
+    "reviewed": "2026-09-18"
+  },
+  "pm_basics": {
+    "title": "PMI · What is project management?",
+    "url": "https://www.pmi.org/about/what-is-project-management",
+    "type": "Primary reference",
+    "reviewed": "2026-09-18"
+  },
+  "roadmap": {
+    "title": "Atlassian · Product roadmaps",
+    "url": "https://www.atlassian.com/agile/product-management/roadmaps",
+    "type": "Practitioner guidance",
+    "reviewed": "2026-09-18"
+  },
+  "mvp": {
+    "title": "Atlassian · Minimum viable product",
+    "url": "https://www.atlassian.com/agile/product-management/minimum-viable-product",
+    "type": "Practitioner guidance",
+    "reviewed": "2026-09-18"
+  },
+  "rag": {
+    "title": "Google Cloud · Retrieval-augmented generation",
+    "url": "https://cloud.google.com/use-cases/retrieval-augmented-generation",
+    "type": "Primary reference",
+    "reviewed": "2026-09-18"
+  }
+}
