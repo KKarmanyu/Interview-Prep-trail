@@ -284,3 +284,53 @@ footer .footer-brand,footer a{color:#dce8f4}
   .question-card,.role-button,.search-box{transition:border-color .18s ease,background .18s ease,transform .18s ease}
   .question-card:hover{transform:translateY(-1px)}
 }
+
+
+/* Dark-theme sanity fixes */
+.question-card .expand{
+  background:#1a2b43;
+  color:#e7f1ff;
+  border:1px solid #3a5575;
+}
+.question-card[open] .expand{
+  background:#9ee86f;
+  color:#07101d;
+  border-color:#9ee86f;
+}
+.question-card .expand:before{
+  color:inherit;
+  line-height:1;
+}
+.ask-section button,
+.ask-section button:hover,
+.ask-section button:focus,
+.ask-section button:active,
+.ask-section button:focus-visible{
+  background:linear-gradient(90deg,#9ee86f,#75a7ff);
+  color:#07101d;
+  border:0;
+}
+.ask-section button:disabled{
+  background:linear-gradient(90deg,#9ee86f,#75a7ff);
+  color:#07101d;
+  opacity:.45;
+}
+.ask-section a{
+  color:#9fc4ff;
+}
+.ask-section > div > a{
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  min-height:46px;
+  padding:0 18px;
+  border-radius:10px;
+  text-decoration:none;
+  font-weight:750;
+  background:linear-gradient(90deg,#9ee86f,#75a7ff);
+  color:#07101d;
+}
+.ask-section > div > a:hover,
+.ask-section > div > a:focus-visible{
+  color:#07101d;
+}
